@@ -1,0 +1,127 @@
+﻿ID,package,version,description,PoCGen,PoCGen_GLM,PoCGen_CodeQL_Result_Num,CodeQL_vanilla,Dynamic Source Export,Source Agent,Sink Agent,CallEdge Agent,CodeQL_Enhanced,Lines of code
+GHSA-23vf-5g53-hm9q,list-n-stream,0.0.10,Directory Traversal in list-n-stream,,,1,0,0,,,,,1935
+GHSA-23xp-j737-282v,takeapeek,0.2.2,Path Traversal in takeapeek,,y,1,7,0,,,,,87970
+GHSA-25jw-gcfj-283j,360class.jansenhm,0.1.1,Directory Traversal in 360class.jansenhm,,(api-error),138,2,no export api,,,,,111
+GHSA-277h-px4m-62q8,@saltcorn/server,1.0.0-beta.13,@saltcorn/server arbitrary file zip read and download when downloading auto backups,,,0,no sarif,0,,,,,1791469
+GHSA-2fmp-7xwf-wvwr,snyk-broker,4.73.0,Arbitrary File Read in Snyk Broker,,y,7,34,no export api,,,,,270398
+GHSA-2gjg-5x33-mmp2,localhost-now,1.0.1,Path Traversal in localhost-now,,y,2,2,1,,,,,44
+GHSA-2hhw-p8mg-jrm6,http-live-simulator,1.0.5,Path Traversal in http-live-simulator,,y,2,4,0,,,,,2538
+GHSA-2r4h-2ghh-5hpx,weather.swlyons,0.1.6,Directory Traversal in weather.swlyons,,y,1,2,no export api,,,,,34
+GHSA-2r7f-4h2c-5x73,fury-adapter-swagger,0.9.6,fury-adapter-swagger allows arbitrary file read from system,,,110,0,2,,,,,1532459
+GHSA-333x-9vgq-v2j4,geddy,13.0.7,Directory Traversal in geddy,,,15,6,no export api,,,,,40835
+GHSA-39v3-f278-vj3g,@backstage/plugin-techdocs-backend,1.10.12,@backstage/plugin-techdocs-backend storage bucket Directory Traversal vulnerability,,,0,no sarif,46,,,,,1422811
+GHSA-3cgg-gh9j-w8vm,iter-http,1.0.13,Directory Traversal in iter-http,,y,6,12,no export api,,,,,671
+GHSA-3f5c-4qxj-vmpf,next,2.4.0,Next.js Directory Traversal Vulnerability,,,21,4,1,,,,,532514
+GHSA-3grc-fgh6-g5gp,http_static_simple,0.1.1,Directory Traversal in http_static_simple,,y,1,2,no export api,,,,,57
+GHSA-3hvm-hgpw-rx4j,knightjs,0.0.1,Path Traversal in knightjs,,y,1,6,1,,,,,859
+GHSA-3q32-j57w-q4w7,total.js,3.1.1,Path Traversal in total.js,,(api-error),no sarif,250,194,,,,,42161
+GHSA-3r8f-gphx-9m2c,mcstatic,0.0.20,Path Traversal in mcstatic,,,2,8,10,,,,,8146
+GHSA-3v6h-hqm4-2rg6,adm-zip,0.4.10,Arbitrary File Write in adm-zip,,y,22,62,22,,,,,2854
+GHSA-3vg2-4qxc-ch4j,unicorn-list,1.0.4,Directory Traversal in unicorn-list,,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-4328-8hgf-7wjr,npm,6.13.3,npm Vulnerable to Global node_modules Binary Overwrite,,,3,2,393,,,,,16941
+GHSA-45hw-29x7-9x95,snyk-broker,4.78.0,Arbitrary File Read in Snyk Broker,,,6,34,no export api,,,,,270411
+GHSA-4vcm-qfxh-p6c3,getcityapi.yoehoehne,0.0.1,Directory Traversal in getcityapi.yoehoehne,,y,1,2,no export api,,,,,1662
+GHSA-5c6f-jpx7-cwq6,enserver,1.0.0,Directory Traversal in enserver,,y,2,4,no export api,,,,,49
+GHSA-5x5w-v4xq-p64r,ewgaddis.lab6,0.1.1,Directory Traversal in ewgaddis.lab6,,y,1,2,no export api,,,,,40
+GHSA-5xf4-f2fq-f69j,yarn,1.21.1,Yarn Improper link resolution before file access (Link Following),,y,2,0,0,,,,,330
+GHSA-62g9-6hw5-rwfp,resolve-path,1.3.3,Path Traversal in resolve-path,,y,5,0,1,,,,,268
+GHSA-68cm-mgv7-vg5c,utahcityfinder,0.0.1,Directory Traversal in utahcityfinder,,y,1,2,no export api,,,,,43
+GHSA-68gr-cmcp-g3mj,lactate,0.13.12,Directory Traversal in lactate,,y,6,20,92,,,,,11759
+GHSA-69rr-wvh9-6c4q,st,0.2.4,Directory Traversal in st,,,11,16,16,,,,,3398
+GHSA-6cpc-mj5c-m9rq,cli,0.11.3,Arbitrary File Write in cli,,,0,0,no export api,,,,,3531
+GHSA-6fmm-47qc-p4m4,harp,0.40.2,Unauthorized File Access in harp,,(api-error),20,48,62,,,,,55782
+GHSA-6jrj-vc65-c983,unzip-stream,0.3.1,unzip-stream allows Arbitrary File Write via artifact extraction,,,3,6,93,,,,,5437
+GHSA-6q32-hq47-5qq3,@actions/artifact,2.1.1,@actions/artifact has an Arbitrary File Write via artifact extraction,,,2,no sarif,14,,,,,395945
+GHSA-6qh5-wx38-q92g,ltt.js,1.0.0,Directory Traversal in ltt.js,,y,0,2,0,,,,,12
+GHSA-73cw-jxmm-qpgh,localhost-now,1.0.2,Path Traversal in localhost-now,,,2,2,1,,,,,46
+GHSA-74cp-qw7f-7hpw,statics-server,0.0.9,Path Traversal in statics-server,,y,7,14,0,,,,,110
+GHSA-754x-4jwp-cqp6,http_server,1.0.12,Cross-Site Scripting in http_server,,y,5,10,0,,,,,218
+GHSA-756f-6j3f-48q9,calmquist.static-server,0.1.1,Directory Traversal in calmquist.static-server,,y,1,2,no export api,,,,,40
+GHSA-776r-w3v9-96mv,censorify.tanisjr,0.1.4,Directory Traversal in censorify.tanisjr,,,2,4,no export api,,,,,126
+GHSA-78h7-fgq9-625x,quickserver,1.1.0,Directory Traversal in quickserver,,y,0,12,0,,,,,691
+GHSA-7pgq-hhq9-9r27,lab6drewfusbyu,0.1.1,Directory Traversal in lab6drewfusbyu,,y,1,2,no export api,,,,,43
+GHSA-7vq3-wcjw-3fxh,lab6.brit95,0.1.1,Directory Traversal in lab6.brit95,,y,1,2,no export api,,,,,48
+GHSA-884w-698f-927f,unzipper,0.8.12,Arbitrary File Write via Archive Extraction in unzipper,,y,5,34,no export api,,,,,28968
+GHSA-886v-mm6p-4m66,gun,0.2019.413,High severity vulnerability that affects gun,,,3,38,177,,,,,46479
+GHSA-8gvc-j273-4wm5,@vitest/browser,2.1.8,Vitest browser mode serves arbitrary files,,,3,no sarif,5,,,,,844047
+GHSA-8h55-49jm-739x,easyquick,0.1.1,Directory Traversal in easyquick,,,no sarif,4,0,,,,,3526
+GHSA-8xj3-7258-w4q2,dasafio,1.2.0,Directory Traversal in dasafio,,y,2,0,no export api,,,,,100
+GHSA-94p5-r7cc-3rpr,path-sanitizer,3.0.1,path-sanitizer allows bypassing the existing filters to achieve path-traversal vulnerability,,,no sarif,no sarif,no export api,,,,,99
+GHSA-94x5-94wf-m445,gomeplus-h5-proxy,1.0.15,Directory Traversal in gomeplus-h5-proxy,,y,8,18,0,,,,,11876
+GHSA-96qc-ghj4-rq27,yttivy,1.0.0,Directory Traversal in yttivy,,y,1,2,0,,,,,34
+GHSA-9h4g-27m8-qjrg,socket.io-file,2.0.31,Path Traversal in socket.io-file,,y,7,14,16,,,,,418
+GHSA-9xv2-548x-5h79,snyk-broker,4.72.1,Arbitrary File Read in Snyk Broker,,,6,34,no export api,,,,,270393
+GHSA-cch6-5x4h-6qc5,tiny-http,2.0.8,Directory Traversal in tiny-http,,y,2,14,40,,,,,2132
+GHSA-ccqh-278p-xq6w,webcrack,2.14.0,webcrack has an Arbitrary File Write Vulnerability on Windows when Parsing and Saving a Malicious Bundle,,(api-error),2,no sarif,no export api,,,,,no loc
+GHSA-ccw5-7vfh-p5hm,dmmcquay.lab6,0.1.1,Directory Traversal in dmmcquay.lab6,,y,1,2,0,,,,,40
+GHSA-cfxm-4p54-5w7h,pooledwebsocket,0.0.18,Directory traversal in pooledwebsocket,,,1,1,0,,,,,3477
+GHSA-cgjv-rghq-qhgp,algo-httpserv,1.1.1,Path Traversal in algo-httpserv,,y,3,6,3,,,,,107
+GHSA-cmch-296j-wfvw,iobroker.js-controller,1.5.14,Arbitrary File Write in iobroker.js-controller,,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-cpp2-q66x-fq44,jikes,0.0.1,Directory Traversal in jikes,,y,0,6,no export api,,,,,19137
+GHSA-cqv6-7fwc-8m3c,xtalk,0.0.7,Directory Traversal in xtalk,,y,0,4,0,,,,,71508
+GHSA-cxwc-8pqp-2whw,qinserve,1.0.0,Directory Traversal in qinserve,,y,1,2,0,,,,,35
+GHSA-f499-jv47-9wxf,desafio,1.1.0,Directory Traversal in desafio,,y,2,0,no export api,,,,,100
+GHSA-f7jg-mcvw-9gwv,reecerver,0.1.2,Directory Traversal in reecerver,,y,1,2,no export api,,,,,54
+GHSA-fg6m-q92x-vv38,dcserver,1.0.0,Directory Traversal in dcserver,,,2,4,0,,,,,35
+GHSA-fm87-46vv-jqrr,html-pages,2.1.2,Path Traversal in html-pages,,,no sarif,4,22,,,,,278357
+GHSA-g4xp-36c3-f7mr,inert,1.1.0,Hidden Directories Always Served in inert,,,32,4,18,,,,,98477
+GHSA-g54f-66mw-hv66,agnai,1.0.329,Agnai vulnerable to Relative Path Traversal in Image Upload,,,18,no sarif,0,,,,,634644
+GHSA-g7j3-p357-cw8p,f2e-server,1.12.11,Directory Traversal in f2e-server,,,no sarif,no sarif,no export api,,,,,184635
+GHSA-g8m7-qhv7-9h5x,serve-here,3.2.0,Path Traversal in serve-here.js,,y,12,no sarif,0,,,,,184475
+GHSA-ggq8-j54v-54x8,sspa,0.1.0,Directory Traversal in sspa,,y,0,8,1,,,,,33
+GHSA-gpvj-q7fp-jcch,simplehttpserver,0.2.0,simplehttpserver allows directory traversal and file listing,,,2,20,0,,,,,20323
+GHSA-h355-hm5h-cm8h,agnai,1.0.329,Agnai File Disclosure Vulnerability: JSON via Path Traversal,,,18,no sarif,0,,,,,634644
+GHSA-hc5w-c9f8-9cc4,langchain,0.2.18,Langchain Path Traversal vulnerability,,,0,no sarif,no export api,,,,,no loc
+GHSA-hhff-3c89-5m7p,byucslabsix,0.0.5,Directory Traversal in byucslabsix,,y,1,1,0,,,,,43
+GHSA-j38m-7q52-fgfh,node-server-forfront,0.10.7,Directory Traversal in node-server-forfront,,,no sarif,no sarif,no export api,,,,,81050
+GHSA-j5mg-fpq8-vvxv,commentapp.stetsonwood,0.0.1,Directory Traversal in commentapp.stetsonwood,,y,1,1,no export api,,,,,77
+GHSA-j6w4-pg6p-5mrv,tmock,0.0.7,Directory Traversal in tmock,,,2,2,no export api,,,,,66
+GHSA-j87c-cj65-vmh5,rendertron,1.0.1,rendertron LFI vulnerability,,,0,no sarif,no export api,,,,,no loc
+GHSA-jp46-fw6c-3pm9,scott-blanch-weather-app,1.0.0,Directory Traversal in scott-blanch-weather-app,,,no sarif,no sarif,no export api,,,,,0
+GHSA-m273-wwfv-h6jp,fancy-server,0.1.3,Directory Traversal in fancy-server,,,2,2,0,,,,,116435
+GHSA-m34x-wgrh-g897,next,3.2.3,Directory traversal vulnerability in Next.js,,,3,30,no export api,,,,,492089
+GHSA-m362-87jc-f39v,uv-tj-demo,1.0.0,Directory Traversal in uv-tj-demo,,,3,2,0,,,,,27948
+GHSA-m8cr-q935-8j67,buttle,0.2.0,Path Traversal in buttle,,y,8,29,1,,,,,237132
+GHSA-mpch-89gm-hm83,agnai,1.0.329,Agnai vulnerable to Remote Code Execution via JS Upload using Directory Traversal,,,18,no sarif,0,,,,,635967
+GHSA-mwj7-r5vc-hmc9,hcbserver,1.0.0,Directory Traversal in hcbserver,,y,1,1,0,,,,,18
+GHSA-p6mr-pxg4-68hx,bower,1.8.7,Symlink Arbitrary File Overwrite in bower,,,no sarif,0,64,,,,,7734
+GHSA-q2qh-cgc2-qhr3,serve,6.4.8,Directory Traversal in serve,,,1,11,2,,,,,100316
+GHSA-qh38-wrgf-cj2c,iter-server,1.0.0,Directory Traversal in iter-server,,y,3,3,0,,,,,223
+GHSA-qm92-93fv-vh7m,@oakserver/oak,14.1.0,Path traversal in oak allows transfer of hidden files within the served root directory,,,8,0,183,,,,,116750
+GHSA-qpwf-4fx5-crqq,earlybird,0.1.7,Directory Traversal in earlybird,,,no sarif,2,no export api,,,,,3605
+GHSA-qwj8-p662-3m7x,localhost-now,1.0.2,Path Traversal in localhost-now,,y,2,1,1,,,,,46
+GHSA-r9mq-3c9r-fmjq,@vendure/asset-server-plugin,2.3.2,Vendure asset server plugin has local file read vulnerability with AssetServerPlugin & LocalAssetStorageStrategy,,,1,0,0,,,,,14762
+GHSA-rcvg-rgf7-pppv,@nuxt/devtools,1.3.8,Nuxt Devtools has a Path Traversal: '../filedir',,,0,no sarif,2,,,,,398919
+GHSA-rgq8-25qc-h54q,myserver.alexcthomas18,0.0.1,Directory Traversal in myserver.alexcthomas18,,y,1,1,no export api,,,,,51
+GHSA-rp28-29ch-gh92,elding,1.0.0,Directory Traversal in elding,,y,15,1,0,,,,,1884
+GHSA-rr77-w4w8-w8wp,tencent-server,0.0.2,Directory Traversal in tencent-server,,,no sarif,no sarif,no export api,,,,,3559
+GHSA-rv49-54qp-fw42,servey,2.2.0,Path Traversal in servey,,y,2,0,1,,,,,289
+GHSA-rw6j-rhw7-q94c,sly07,0.1.2,Directory Traversal in sly07,,y,1,1,no export api,,,,,49
+GHSA-vc6r-4x6g-mmqc,m-server,1.4.1,Path Traversal in m-server,,y,1,5,0,,,,,256
+GHSA-vgjp-vh3c-32v3,mockserve,2.0.6,Directory Traversal in mockserve,,,5,9,224,,,,,20126
+GHSA-vmhw-fhj6-m3g5,angular-http-server,1.4.3,Path Traversal in angular-http-server,,y,2,2,no export api,,,,,3814
+GHSA-vvmv-wrvp-9gjr,@jmondi/url-to-png,2.1.0,@jmondi/url-to-png contains a Path Traversal vulnerability,,(api-error),16,7,227,,,,,368423
+GHSA-vwr2-wj63-86gr,simplehttpserver,0.3.0,Path Traversal in simplehttpserver,,,2,10,0,,,,,31915
+GHSA-vxwf-pprx-wc25,citypredict.whauwiller,1.0.0,Directory Traversal in citypredict.whauwiller,,,no sarif,no sarif,no export api,,,,,0
+GHSA-wmcq-3wfx-qjx5,nodeload-nmickuli,1.0.3,Directory Traversal in nodeload-nmickuli,,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-wv2f-3rxv-jqhp,general-file-server,1.1.8,Path Traversal in general-file-server,,y,6,6,0,,,,,46650
+GHSA-x26f-26qw-hhhx,hekto,0.2.2,Path Traversal in hekto,,,17,17,0,,,,,89341
+GHSA-x5x2-mfc7-r22f,picard,0.3.1,Directory Traversal in picard,,y,7,3,no export api,,,,,2199
+GHSA-x7m2-6g99-84w5,snyk-broker,4.79.1,Arbitrary File Read in Snyk Broker,,,7,17,no export api,,,,,270494
+GHSA-x8qc-rrcw-4r46,npm,6.13.2,npm symlink reference outside of node_modules,,(api-error),no sarif,1,393,,,,,16941
+GHSA-xg5r-8j97-2wrj,restafary,1.6.0,Directory Traversal in restafary,,y,32,23,1,,,,,92942
+GHSA-xg75-3277-gvvj,serve,7.1.2,Directory Traversal in serve,,(api-error),3,0,0,,,,,48583
+GHSA-xq98-5rcf-5wqh,badjs-sourcemap-server,0.1.11,Directory Traversal in badjs-sourcemap-server,,,2,2,0,,,,,27646
+GHSA-xqfm-ff6g-24c7,dgard8.lab6,0.0.1,Directory Traversal in dgard8.lab6,,,2,2,no export api,,,,,53
+GHSA-xvg8-m4x3-w6xr,matrix-js-sdk,34.10.0,matrix-js-sdk has insufficient MXC URI validation which allows client-side path traversal,,(api-error),no sarif,0,1289,,,,,148270
+GHSA-xwg4-93c6-3h42,send,0.8.3,Directory Traversal in send,,,1,5,49,,,,,1435
+GHSA-xwjh-cp99-cj8q,cordova-plugin-ionic-webview,2.1.4,Path Traversal in cordova-plugin-ionic-webview,,,0,0,0,,,,,176
+SNYK-JS-EVERSHOP-6117626,evershop,1.0.0-beta,"Directory Traversal Affecting evershop package, versions *",,,0,no sarif,0,,,,,1348910
+SNYK-JS-FLOWISE-9459046,flowise,2.0.7,"Arbitrary Code Injection Affecting flowise package, versions <2.1.0",,,no sarif,no sarif,no export api,,,,,no loc
+SNYK-JS-FLOWISEUI-9459045,flowise-ui,2.0.7,"Arbitrary Code Injection Affecting flowise-ui package, versions <2.1.0",,,0,no sarif,no export api,,,,,2317163
+SNYK-JS-GATSBYPLUGINSHARP-5671648,gatsby-plugin-sharp,5.9.0,"Information Exposure Affecting gatsby-plugin-sharp package, versions <5.10.0",,,9,no sarif,15,,,,,1882271
+SNYK-JS-GRAPHQLMESHHTTP-8744682,@graphql-mesh/http,0.3.18,"Directory Traversal Affecting @graphql-mesh/http package, versions <0.3.19",,,1,no sarif,1,,,,,694702
+SNYK-JS-NOCODB-5721466,nocodb,0.109.5,"Directory Traversal Affecting nocodb package, versions <0.109.6",,,no sarif,no sarif,44,,,,,2249061
+SNYK-JS-NODELIBCURL-5933252,node-libcurl,5.0.0-3,"External Control of File Name or Path Affecting node-libcurl package, versions *",,y,3,43,118,,,,,79684
+SNYK-JS-SIMONSMITHCYPRESSIMAGESNAPSHOT-5813755,@simonsmith/cypress-image-snapshot,8.0.1,"Directory Traversal Affecting @simonsmith/cypress-image-snapshot package, versions <8.0.2",,,0,0,0,,,,,308300
+SNYK-JS-WRANGLER-5819554,wrangler,2.21.3,"Directory Traversal Affecting wrangler package, versions <3.1.1",,(api-error),116,59,no export api,,,,,224184

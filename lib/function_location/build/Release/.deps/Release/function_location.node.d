@@ -1,0 +1,1 @@
+cmd_Release/function_location.node := ln -f "Release/obj.target/function_location.node" "Release/function_location.node" 2>/dev/null || (rm -rf "Release/function_location.node" && cp -af "Release/obj.target/function_location.node" "Release/function_location.node")

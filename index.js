@@ -61,17 +61,26 @@ function floatParser(value) {
  * }} PipelineRunnerOptions
  */
 
-export const MAX_COMPLETION_TOKENS = 100_000;
-export const MAX_PROMPT_TOKENS = 300_000;
+export const MAX_COMPLETION_TOKENS = process.env.MAX_COMPLETION_TOKENS 
+   ? parseInt(process.env.MAX_COMPLETION_TOKENS, 10) 
+   : 100_000;
+export const MAX_PROMPT_TOKENS = process.env.MAX_PROMPT_TOKENS 
+   ? parseInt(process.env.MAX_PROMPT_TOKENS, 10) 
+   : 300_000;
 
 const models = await loadModels();
+
+// Get default model from environment variable or use first available model
+const defaultModelName = process.env.MODEL_NAME 
+   ? (models.find(m => m.name === process.env.MODEL_NAME)?.name || models[0].name)
+   : models[0].name;
 
 function addModelOptions(command) {
    return command
       .addOption(
          new Option("-m, --model <model>", "model to use")
             .choices(models.map(s => s.name))
-            .default(models[0].name)
+            .default(defaultModelName)
       )
       .option(
          "--promptCache",
@@ -188,7 +197,8 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
    addBaseOptions(cmd.command("pipeline"))
       .option("-R, --reviewed", "filter vulnerabilities that have been reviewed")
       .option("-offset, --offset <offset>", "offset to start from", intParser, 0)
-      .option("-timeout, --timeout <offset>", "timeout in seconds", intParser, 60 * 60)
+      .option("-timeout, --timeout <offset>", "timeout in seconds", intParser, 
+         process.env.VULN_TIMEOUT_SECONDS ? parseInt(process.env.VULN_TIMEOUT_SECONDS, 10) : 60 * 60)
       .option("-ignore, --ignore <ignore>", "file containing advisory ids to ignore")
       .option(
          "-limit, --limit <limit>",

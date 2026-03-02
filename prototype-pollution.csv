@@ -1,0 +1,262 @@
+﻿ID,package,version,description,PoCGen,PoCGen_GLM,PoCGen_CodeQL_Result_Num,CodeQL_vanilla,Dynamic Source Export,Source Agent,Sink Agent,CallEdge Agent,CodeQL_Enhanced,Lines of code
+GHSA-22h7-7wwg-qmgg,@hapi/hoek,8.5.0,Prototype Pollution in @hapi/hoek,,(api-error),no sarif,9,no export api,,,,,1130
+GHSA-23wx-cgxq-vpwx,dset,3.1.1,Prototype Pollution in dset,,(api-error),no sarif,8,1,,,,,72
+GHSA-28mc-g557-92m7,@75lb/deep-merge,1.1.1,@75lb/deep-merge Prototype Pollution vulnerability,,(api-error),0,0,2,,,,,493
+GHSA-2g4c-8fpm-c46v,web3-utils,4.2.0,web3-utils Prototype Pollution vulnerability,,y,3,28,no export api,,,,,158684
+GHSA-2ghc-6v89-pw9j,body-parser-xml,2.0.2,body-parser-xml vulnerable to Prototype Pollution,,(api-error),no sarif,0,1,,,,,5898
+GHSA-2m53-83f3-562j,min-dash,3.8.0,Prototype pollution in min-dash,,(api-error),no sarif,7,41,,,,,1532
+GHSA-2m96-9w4j-wgv7,lodash.merge,4.6.0,Prototype Pollution in lodash.merge,,(api-error),no sarif,0,1,,,,,875
+GHSA-2w3f-9w3q-qw77,config-handler,2.0.3,Prototype Pollution in config-handler,,,no sarif,3,1,,,,,676
+GHSA-2x9c-qwgf-94xr,matrix-react-sdk,3.52.0,matrix-react-sdk Prototype pollution vulnerability,,,0,no sarif,0,,,,,1286903
+GHSA-328p-362g-r48j,@ag-grid-enterprise/charts,32.0.0,ag-grid packages vulnerable to Prototype Pollution,,,0,no sarif,1731,,,,,85731
+GHSA-33vh-7x8q-mg35,safe-eval,0.4.1,safe-eval vulnerable to Prototype Pollution,,y,1,0,1,,,,,87
+GHSA-34q8-jcq6-mc37,uplot,1.6.30,uPlot Prototype Pollution vulnerability,,y,2,316,26,,,,,13383
+GHSA-36c4-4r89-6whg,@commercial/subtext,5.1.1,Prototype Pollution in @commercial/subtext,,(api-error),no sarif,39,1,,,,,2681
+GHSA-3829-mgmw-jcg4,deep.assign,0.0.0-alpha.0,Prototype Pollution in deep.assign,,(api-error),no sarif,6,2,,,,,113
+GHSA-39qv-prmh-x37f,@strikeentco/set,1.0.1,Prototype Pollution in @strikeentco/set,,(api-error),no sarif,2,1,,,,,31
+GHSA-3hvj-2783-34x2,njwt,2.0.0,njwt Prototype Pollution vulnerability,,,15,15,33,,,,,11762
+GHSA-3q56-9cc2-46j4,fast-loops,1.1.3,robinweser fast-loops vulnerable to prototype pollution,,y,2,6,11,,,,,2669
+GHSA-3x3f-jcp3-g22j,@backstage/plugin-catalog-backend,1.25.2,@backstage/plugin-catalog-backend Prototype Pollution vulnerability,,,0,no sarif,135,,,,,1409231
+GHSA-3xgx-r9j4-qw9w,dexie,3.0.4,Prototype Pollution in Dexie,,(api-error),no sarif,284,232,,,,,9249
+ghsa-462x-c3jw-7vr6,,,,,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-46fh-8fc5-xcwx,lodash.defaultsdeep,4.6.0,Prototype Pollution in lodash.defaultsdeep,,(api-error),no sarif,0,1,,,,,887
+GHSA-47pj-q2vm-46xc,collection.js,6.7.11,Collection.js vulnerable to Prototype Pollution,,,26,88,36,,,,,19756
+GHSA-49j4-86m8-q2jw,mysql2,3.9.3,mysql2 vulnerable to Prototype Poisoning,,,15,33,180,,,,,23965
+GHSA-4cpg-3vgw-4877,plist,3.0.4,Prototype pollution in Plist before 3.0.5 can cause denial of service,,(api-error),no sarif,18,2,,,,,17257
+GHSA-4g77-cvgw-grvw,putil-merge,3.7.0,Prototype Pollution in putil-merge,,(api-error),no sarif,7,3,,,,,94
+GHSA-4g88-fppr-53pp,set-value,2.0.0,Prototype Pollution in set-value,,(api-error),no sarif,4,1,,,,,275
+GHSA-4gxf-g5gf-22h4,dottie,2.0.3,dottie vulnerable to Prototype Pollution,,y,3,6,9,,,,,170
+GHSA-4jrm-c32x-w4jf,convict,6.2.3,convict vulnerable to Prototype Pollution,,y,2,22,4,,,,,2347
+GHSA-4m8h-h59m-m34j,bmoor,0.10.0,Prototype Pollution in bmoor,,(api-error),no sarif,24,95,,,,,4119
+GHSA-4r6h-8v6p-xvw6,xlsx,0.18.5,Prototype Pollution in sheetJS,,y,91,no sarif,177,,,,,76484
+GHSA-4r97-78gf-q24v,klona,1.1.0,Duplicate Advisory: Prototype Pollution in klona,,(api-error),no sarif,0,1,,,,,61
+GHSA-4xcx-cwrq-w792,openmct,3.0.2,Prototype Pollution in NASA Open MCT,,,19,0,0,,,,,39499
+ghsa-5888-ffcr-r425,,,,,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-5947-m4fg-xhqg,lodash.mergewith,4.6.0,Prototype Pollution in lodash.mergewith,,(api-error),no sarif,0,1,,,,,875
+GHSA-5f97-h2c2-826q,@apidevtools/json-schema-ref-parser,11.1.0,json-schema-ref-parser Prototype Pollution issue,,y,5,32,26,,,,,28525
+GHSA-5p42-m6f3-hpmj,tree-kit,0.7.4,tree-kit Prototype Pollution vulnerability,,y(api-error),5,66,34,,,,,4406
+GHSA-5pm8-492c-92p5,chartkick,3.2.1,Prototype Pollution in chartkick,,,0,18,50,,,,,4048
+GHSA-5rrq-pxf6-6jx5,node-forge,0.10.0,Prototype Pollution in node-forge debug API.,,(api-error),no sarif,124,no export api,,,,,17929
+GHSA-5xjx-4xcm-hpcm,ts-nodash,1.2.6,Prototype Pollution in ts-nodash,,(api-error),no sarif,no sarif,no export api,,,,,no loc
+GHSA-624g-8qjg-8qxf,@conform-to/dom,1.1.0,Conform contains a Prototype Pollution Vulnerability in `parseWith...` function,,,44,46,7,,,,,2520
+GHSA-6339-gv7w-g5f4,@sap/hana-client,2.21.28,SAP HANA Node.js client package vulnerable to Prototype Pollution,,,3,0,0,,,,,1689
+GHSA-653v-rqx9-j85p,deep-object-diff,1.1.8,deep-object-diff vulnerable to Prototype Pollution,,,2,4,5,,,,,447
+GHSA-65rp-mhqf-8gj3,rangy,1.3.1,rangy vulnerable to Prototype Pollution,,,no sarif,2,27,,,,,6187
+GHSA-67mq-h2r9-rh2m,multi-ini,2.1.1,Prototype pollution in multi-ini,,(api-error),no sarif,84,39,,,,,28567
+GHSA-6956-83fg-5wc5,set-in,2.0.1,Prototype Pollution in set-in,,(api-error),no sarif,1,1,,,,,193
+GHSA-69r2-2fg7-7hf9,@abw/badger-database,1.2.1,Badger Database Prototype Pollution,,,1,16,0,,,,,1335
+GHSA-6fh5-8wq8-w3wr,unflatten,1.0.4,Prototype Pollution in unflatten,,(api-error),no sarif,2,1,,,,,46339
+GHSA-6g43-88cp-w5gv,matrix-react-sdk,3.68.0,Prototype pollution in matrix-react-sdk,,,no sarif,no sarif,0,,,,,1011928
+GHSA-6g8v-hpgw-h2v7,gsap,3.5.1,Prototype pollution in gsap,,,no sarif,336,no export api,,,,,33113
+GHSA-6xrf-q977-5vgc,json-pointer,0.6.1,json-pointer vulnerable to Prototype Pollution,,,3,5,11,,,,,667
+GHSA-6xwr-q98w-rvg7,nconf,0.11.3,Prototype Pollution in nconf,,(api-error),no sarif,12,54,,,,,11184
+GHSA-72xf-g2v4-qvf3,tough-cookie,4.1.2,tough-cookie Prototype Pollution vulnerability,,y,1,27,68,,,,,22991
+GHSA-74cr-77xc-8g6r,@apollo/gateway,0.6.1,Prototype Pollution in @apollo/gateway,,(api-error),no sarif,177,19,,,,,262105
+GHSA-765h-qjxv-5f44,handlebars,4.7.6,Prototype Pollution in handlebars,,(api-error),no sarif,56,200,,,,,60118
+GHSA-76p3-8jx3-jpfq,loader-utils,2.0.2,Prototype pollution in webpack loader-utils,,,2,5,10,,,,,9002
+GHSA-776f-qx25-q3cc,xml2js,0.4.23,xml2js is vulnerable to prototype pollution,,(api-error),15,0,no export api,,,,,5743
+GHSA-779f-wgxg-qr8f,lodash.mergewith,4.6.1,Prototype Pollution in lodash.mergewith,,(api-error),no sarif,0,2,,,,,782
+GHSA-78p3-fwcq-62c2,@saltcorn/server,1.0.0-beta.13,@saltcorn/server Remote Code Execution (RCE) / SQL injection via prototype pollution by manipulating `lang` and `defstring` parameters when setting localizer strings,,,0,no sarif,0,,,,,1791588
+GHSA-79h2-v6hh-wq23,@ndhoule/defaults,2.0.1,@ndhoule/defaults prototype pollution,,y,1,1,2,,,,,430
+GHSA-79xf-67r4-q2jj,safe-eval,0.4.1,safe-eval vulnerable to Sandbox Bypass due to improper input sanitization,,y,1,0,1,,,,,87
+GHSA-7h43-gx24-p529,json8,1.0.2,Prototype pollution in json8,,(api-error),no sarif,2,42,,,,,585
+GHSA-7pvx-4585-hqww,sequelize-typescript,2.1.5,sequelize-typescript Prototype Pollution vulnerability,,,2,no sarif,516,,,,,196640
+GHSA-7px2-3c2p-q4v4,flatnest,1.0.0,flatnest Prototype Pollution vulnerability,,,2,3,3,,,,,102
+GHSA-7qgg-vw88-cc99,utils-extend,1.0.8,utils-extend Prototype Pollution,,y(api-error),3,3,77,,,,,231
+GHSA-7qqq-gh2f-wq76,ts-deepmerge,2.0.1,ts-deepmerge before 2.0.2 vulnerable to Prototype Pollution,,,1,1,2,,,,,99
+GHSA-7w8j-85wm-6xfq,jquery-bbq,1.0.0,Prototype Pollution in jquery-bbq,,(api-error),no sarif,276,0,,,,,38870
+GHSA-82jv-9wjw-pqh6,derby,2.3.1,Prototype pollution in emit function,,,55,229,45,,,,,89259
+GHSA-84p7-fh9c-6g8h,mixme,0.5.1,Prototype Pollution in mixme,,(api-error),no sarif,2,7,,,,,433
+GHSA-866w-wm4h-95c6,browserify-shim,3.8.15,thlorenz browserify-shim vulnerable to prototype pollution,,,1,0,25,,,,,168965
+GHSA-876p-c77m-x2hc,ag-grid-enterprise,31.3.2,Prototype pollution in ag-grid-community via the _.mergeDeep function,,,0,no sarif,6444,,,,,47440
+GHSA-87qp-7cw8-8q9c,web3-utils,4.2.0,Duplicate Advisory: web3-utils Prototype Pollution vulnerability,,y,3,28,no export api,,,,,158684
+GHSA-88vr-hjqx-57qh,@adolph_dudu/ratio-swiper,0.0.2,adolph_dudu ratio-swiper was discovered to contain a prototype pollution via the function extendDefaults,,,0,14,210,,,,,42313
+GHSA-89fp-f5mx-748x,vxe-table,3.19.7,vxe-table prototype pollution,,,0,464,1545,,,,,641470
+GHSA-89mq-4x47-5v83,angular,1.7.8,Prototype Pollution in angular,,(api-error),no sarif,0,0,,,,,2
+GHSA-89qm-hm2x-mxm3,progressbar.js,1.1.0,progressbar.js vulnerable to Prototype Pollution,,y,2,9,55,,,,,5420
+GHSA-8f89-2fwj-5v5r,klona,1.1.0,Improper Input Validation in klona,,,no sarif,0,1,,,,,61
+GHSA-8f8g-9j73-7p82,steal,2.3.0,steal vulnerable to Prototype Pollution via optionName variable,,,no sarif,27,no export api,,,,,102312
+ghsa-8g4m-cjm2-96wq,,,,,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-8gh8-hqwg-xf34,fast-json-patch,3.1.0,Starcounter-Jack JSON-Patch Prototype Pollution vulnerability,,y,10,13,15,,,,,2336
+GHSA-8mmm-9v2q-x3f9,gh-pages,4.0.0,tschaub gh-pages vulnerable to prototype pollution,,,11,54,3,,,,,41957
+GHSA-8ppr-www8-hfjx,@thi.ng/paths,5.1.62,@thi.ng/paths Prototype Pollution vulnerability,,y,4,16,31,,,,,2545
+GHSA-8qpm-5c82-rf96,backbone-query-parameters,0.4.0,Prototype Pollution in backbone-query-parameters,,(api-error),no sarif,18,0,,,,,32719
+GHSA-8v3j-jfg3-v3fv,sails,1.5.2,Prototype Pollution in Sails.js,,(api-error),no sarif,393,216,,,,,202061
+GHSA-8v63-cqqc-6r2c,object-path,0.11.7,Prototype Pollution in object-path,,(api-error),no sarif,6,31,,,,,1116
+GHSA-8vr4-h4rr-8ph6,@bit/loader,10.0.3,MiguelCastillo @bit/loader Prototype Pollution issue,,,1,0,no export api,,,,,6615
+GHSA-93q5-3xpc-8vg3,steal,2.3.0,steal vulnerable to Prototype Pollution via requestedVersion variable,,(api-error),no sarif,27,no export api,,,,,102312
+GHSA-93vw-8fm5-p2jf,parse-server,4.10.19,Parse Server is vulnerable to Prototype Pollution via Cloud Code Webhooks,,,no sarif,no sarif,0,,,,,1014358
+GHSA-97jv-c342-5xhc,whois,2.13.5,FurqanSoftware/node-whois vulnerable to Prototype Pollution,,y,1,8,1,,,,,21899
+GHSA-992f-wf4w-x36v,merge-objects,1.0.5,Prototype Pollution in merge-objects,,(api-error),no sarif,3,1,,,,,55
+GHSA-9c47-m6qq-7p4h,json5,2.2.1,Prototype Pollution in JSON5 via Parse Method,,,4,4,2,,,,,4307
+GHSA-9fp7-4fjm-q3mf,keyget,2.4.0,Prototype Pollution in keyget,,(api-error),no sarif,4,10,,,,,202
+GHSA-9g9w-hmvj-5h57,merge-deep,3.0.0,Prototype Pollution in merge-deep,,y,3,3,1,,,,,379
+ghsa-9gxr-rhx6-4jgv,,,,,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-9m93-w8w6-76hh,mongoose,7.3.2,Mongoose Prototype Pollution vulnerability,,,no sarif,no sarif,no export api,,,,,119633
+GHSA-9pgh-qqpf-7wqj,xmldom,0.6.0,Withdrawn: Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') in @xmldom/xmldom and xmldom,,,4,18,no export api,,,,,2257
+GHSA-9qmh-276g-x5pj,immer,8.0.0,Prototype Pollution in immer,,,no sarif,47,19,,,,,5128
+GHSA-9qrg-h9g8-c65q,deep-setter,1.0.2,Prototype Pollution in deep-setter,,(api-error),no sarif,0,1,,,,,66
+GHSA-9w5f-mw3p-pj47,@clickbar/dot-diver,1.0.1,Prototype Pollution(PP) vulnerability in setByPath,,,1,1,0,,,,,62
+GHSA-9wcg-jrwf-8gg7,express-fileupload,1.1.8,Prototype Pollution in express-fileupload,,(api-error),no sarif,18,2,,,,,6932
+GHSA-c36v-fmgq-m8hx,immer,9.0.5,Prototype Pollution in immer,,(api-error),no sarif,49,20,,,,,5323
+GHSA-c429-5p7v-vgjp,@hapi/hoek,8.5.0,hoek subject to prototype pollution via the clone function.,,(api-error),1,9,no export api,,,,,1130
+GHSA-c6rp-wrp9-qr4q,dustjs-linkedin,2.7.5,dustjs-linkedin vulnerable to Prototype Pollution,,,3,50,91,,,,,36842
+GHSA-cfgr-75jx-h88g,browserify-shim,3.8.15,thlorenz browserify-shim vulnerable to prototype pollution,,,1,0,25,,,,,168965
+GHSA-ch82-gqh6-9xj9,get-setter,0.0.0,Prototype Pollution in get-setter,,(api-error),no sarif,2,2,,,,,66
+GHSA-f5c9-x9j6-87qp,dotty,0.1.0,Prototype pollution in dotty,,,no sarif,3,7,,,,,725
+GHSA-f6v4-cf5j-vf3w,dset,3.1.3,dset Prototype Pollution vulnerability,,,4,8,1,,,,,92
+GHSA-f737-3fh6-jf6w,vconsole,3.15.0,Prototype Pollution in vConsole,,,36,0,0,,,,,37082
+GHSA-f825-f98c-gj3g,mongoose,6.4.5,automattic/mongoose vulnerable to Prototype pollution via Schema.path,,,no sarif,no sarif,502,,,,,139693
+GHSA-f9cm-qmx5-m98h,merge,1.2.0,Prototype Pollution in merge,,(api-error),no sarif,2,3,,,,,64
+ghsa-ff9j-pwxg-q5p2,,,,,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-fg4m-w35q-vfg2,@zag-js/core,0.82.1,@zag-js/core prototype pollution,,y(api-error),2,10,25,,,,,3973
+GHSA-fg52-5jjj-28h7,@cdr0/sg,1.0.10,@cdr0/sg Prototype Pollution,,,10,27,389,,,,,12254
+GHSA-fhv8-fx5f-7fxf,zrender,5.2.0,Prototype Pollution in the merge and clone helper methods,,(api-error),no sarif,988,0,,,,,62129
+GHSA-fm93-fhh2-cg2c,min-dash,3.8.0,Duplicate Advisory: Prototype Pollution in min-dash,,(api-error),no sarif,7,41,,,,,1532
+GHSA-fqg8-vfv7-8fj8,jsonata,1.8.6,"JSONata expression can pollute the ""Object"" prototype",,,120,41,2,,,,,14078
+GHSA-fvqr-27wr-82fm,lodash,4.17.4,Prototype Pollution in lodash,,(api-error),no sarif,461,no export api,,,,,26434
+GHSA-fw45-938v-p26j,mootools-more,1.5.2,mootools-more vulnerable to prototype pollution,,(api-error),no sarif,0,0,,,,,2795
+GHSA-fwr7-v2mv-hh25,async,3.2.1,Prototype Pollution in async,,(api-error),no sarif,32,no export api,,,,,7157
+GHSA-fxwf-45c7-4ppr,object-hierarchy-access,0.32.0,Prototype pollution in object-hierarchy-access,,(api-error),no sarif,33,22,,,,,5455
+GHSA-g3q2-vcjq-rgrc,@blackprint/engine,0.9.1,Blackprint @blackprint/engine Prototype Pollution issue,,(api-error),2,94,no export api,,,,,722
+GHSA-g3vf-47fv-8f3c,hellojs,1.18.6,MrSwitch hello.js vulnerable to prototype pollution,,(api-error),48,165,0,,,,,45672
+GHSA-g452-6rfc-vrvx,open-graph,0.2.4,Prototype Pollution in open-graph,,(api-error),no sarif,0,3,,,,,74558
+GHSA-g64q-3vg8-8f93,pez,2.2.2,Prototype Pollution in pez,,(api-error),no sarif,6,37,,,,,1771
+GHSA-g954-5hwp-pp24,protobufjs,6.11.2,Prototype Pollution in protobufjs,,(api-error),no sarif,71,no export api,,,,,36951
+GHSA-g974-hxvm-x689,node-gettext,3.0.0,node-gettext vulnerable to Prototype Pollution,,y,1,1,22,,,,,2809
+GHSA-g9cg-h3jm-cwrc,@hapi/pez,4.1.2,Prototype Pollution in @hapi/subtext,,(api-error),no sarif,19,37,,,,,2129
+GHSA-g9r4-xpmj-mj65,handlebars,3.0.7,Prototype Pollution in handlebars,,(api-error),no sarif,30,199,,,,,37769
+GHSA-gc7m-596h-x57r,@airvertco/frappejs,0.0.11,frappejs was discovered to contain a prototype pollution via the function registerView,,,no sarif,no sarif,28,,,,,1049683
+GHSA-gff7-g5r8-mg8m,simple-plist,1.3.0,Prototype Pollution in simple-plist,,(api-error),no sarif,20,13,,,,,32589
+GHSA-gh4x-qv3p-m9pm,@akbr/patch-into,1.0.1,akbr patch-into was discovered to contain a prototype pollution via the function patchInto,,y,5,6,1,,,,,190
+GHSA-gjm5-83cw-p3p2,extend2,1.0.0,Prototype Pollution in extend2,,(api-error),no sarif,2,1,,,,,46
+GHSA-gmjw-49p4-pcfm,msgpack5,3.6.0,Prototype poisoning,,(api-error),no sarif,157,92,,,,,11533
+GHSA-gmwp-3pwc-3j3g,mockery,2.1.0,mockery is vulnerable to prototype pollution,,,2,2,14,,,,,736
+GHSA-gpvc-mx6g-cchv,underscore-keypath,0.9.3,underscore-keypath vulnerable to Prototype Pollution,,,1,20,326,,,,,11852
+ghsa-gqgv-6jq5-jjj9,,,,,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-gvjw-8mmr-8f6g,steal,2.3.0,steal vulnerable to Prototype Pollution,,(api-error),no sarif,27,no export api,,,,,102312
+GHSA-h466-j336-74wx,mpath,0.5.0,Prototype Pollution in mpath,,(api-error),no sarif,12,4,,,,,1861
+GHSA-h5mp-5q4p-ggf5,lodash.defaultsdeep,4.6.0,Prototype Pollution in lodash.defaultsdeep,,(api-error),no sarif,0,1,,,,,887
+GHSA-h68q-55jf-x68w,chart.js,2.9.3,Prototype pollution in chart.js,,(api-error),no sarif,199,520,,,,,111541
+GHSA-h6pr-c536-6rjg,object-path-set,1.0.1,Prototype Pollution in object-path-set,,(api-error),no sarif,2,1,,,,,212
+GHSA-h6xg-rg33-9mf4,deep-defaults,1.0.5,deep-defaults vulnerable to prototype pollution,,(api-error),no sarif,78,1,,,,,26789
+GHSA-h755-8qp9-cq85,protobufjs,6.11.3,protobufjs Prototype Pollution vulnerability,,(api-error),23,71,no export api,,,,,37090
+GHSA-h8hf-x3f4-xwgp,mongoose,6.4.5,Mongoose Vulnerable to Prototype Pollution in Schema Object,,,no sarif,no sarif,502,,,,,139693
+GHSA-hcg3-56jf-x4vh,safe-eval,0.4.1,safe-eval vulnerable to Prototype Pollution via the safeEval function,,y,1,0,1,,,,,87
+GHSA-hcj4-xf6x-63wj,grunt-karma,4.0.1,Grunt-karma vulnerable to prototype pollution,,,1,27,1,,,,,138103
+GHSA-hfrv-h3q8-9jpr,kurwov,3.2.4,kurwov vulnerable to Denial of Service due to improper data sanitization,,,2,0,0,,,,,102
+GHSA-hjwq-mjwj-4x6c,@intlify/shared,9.14.1,@intlify/shared Prototype Pollution vulnerability,,y,0,0,no export api,,,,,531
+GHSA-hrpp-h998-j3pp,qs,6.10.2,qs vulnerable to Prototype Pollution,,,5,5,4,,,,,8112
+GHSA-hxcm-v35h-mg2x,querystringify,1.0.0,Prototype Pollution in querystringify,,(api-error),no sarif,0,2,,,,,28
+GHSA-j7cg-h9v9-6vqp,irrelon-path,2.0.5,Prototype Pollution in irrelon-path and @irrelon/path,,(api-error),no sarif,7,18,,,,,859
+GHSA-j8px-pjmp-325f,@allanlancioni/flatten-json,1.0.1,flatten-json Prototype Pollution,,y,2,2,2,,,,,46
+ghsa-jg82-xh3w-rhxx,,,,,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-jg8v-48h5-wgxg,jszip,3.6.0,jszip Vulnerable to Prototype Pollution,,(api-error),no sarif,28,21,,,,,17814
+GHSA-jj58-488v-4rgf,@almela/obx,0.0.3,obx Prototype Pollution,,y,2,6,12,,,,,6802
+GHSA-jjf5-wx3j-3fv7,convict,6.2.2,Prototype Pollution in convict,,,2,22,4,,,,,2346
+GHSA-jjff-q3q4-5hh8,@andrei-tatar/nora-firebase-common,1.12.2,@andrei-tatar/nora-firebase-common Prototype Pollution vulnerability,,,0,110,39,,,,,46247
+GHSA-jxfh-8wgv-vfr2,dojo,1.11.9,Prototype pollution in dojo,,(api-error),no sarif,267,0,,,,,118614
+GHSA-m4gq-x24j-jpmf,mermaid,10.9.2,Prototype pollution vulnerability found in Mermaid's bundled version of DOMPurify,,,5,no sarif,0,,,,,400751
+GHSA-m56h-5xx3-2jc2,jsii,5.7.2,Prototype pollution in jsii.configureCategories,,,1,no sarif,26,,,,,66545
+GHSA-m639-9whg-fw97,object-extend,0.5.0,Prototype Pollution in object-extend,,(api-error),no sarif,3,1,,,,,535
+GHSA-m6mg-jvjf-w44x,conf-cfg-ini,1.2.1,conf-cfg-ini Prototype Pollution via malicious INI file before v1.2.2,,,1,1,6,,,,,295
+ghsa-m7j4-fhg6-xf5v,,,,,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-m8gw-hjpr-rjv7,dojo,1.11.13,Prototype Pollution in dojo,,(api-error),no sarif,267,0,,,,,118630
+GHSA-m9hw-7xfv-wqg7,json-logic-js,1.2.3,Prototype Pollution in json-logic-js,,y,0,0,9,,,,,640
+GHSA-mh8j-9jvh-gjf6,mockjs,1.1.0,mockjs vulnerable to Prototype Pollution via the Util.extend function,,y,6,10,147,,,,,19531
+GHSA-mj4p-gmhr-92g3,@akbr/update,1.0.0,@akbr/update Prototype Pollution,,y,2,5,1,,,,,145
+GHSA-mjjj-6p43-vhhv,deep-get-set,1.1.1,Prototype Pollution in deep-get-set,,(api-error),no sarif,2,1,,,,,161
+ghsa-mmhx-hmjr-r674,,,,,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-mqgv-67vx-g4m5,js-data,3.0.9,Prototype Pollution in js-data,,(api-error),no sarif,56,321,,,,,14190
+GHSA-mwq8-fjpf-c2gr,matrix-js-sdk,23.5.0,Prototype pollution in matrix-js-sdk (part 2),,(api-error),no sarif,no sarif,1007,,,,,111977
+GHSA-p23c-p8w2-ww5v,querymen,2.1.4,Prototype Pollution in querymen,,y,1,91,72,,,,,27515
+GHSA-p2fh-2h23-6grg,@antfu/utils,0.7.2,antfu/utils vulnerable to prototype pollution,,,no sarif,4,no export api,,,,,1158
+GHSA-p2ph-7g93-hw3m,@intlify/message-resolver,9.1.10,Vue I18n Allows Prototype Pollution in `handleFlatJson`,,y,9,9,3,,,,,788
+GHSA-p33m-7w7f-gmj8,fun-map,3.3.1,Uncontrolled Resource Consumption in fun-map,,(api-error),no sarif,6,20,,,,,177
+GHSA-p3pg-64pv-v7jg,jsgui-lang-essentials,0.4.3,Prototype Pollution in jsgui-lang-essentials,,(api-error),no sarif,9,37,,,,,1119
+ghsa-p3vf-v8qc-cwcr,,,,,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-p5g9-rjcf-95vj,fastest-json-copy,1.0.1,fastest-json-copy vulnerable to Prototype Pollution,,,0,0,1,,,,,129
+GHSA-p6h4-93qp-jhcm,parse-server,4.10.6,Command injection in Parse Server through prototype pollution,,(api-error),no sarif,no sarif,0,,,,,1013870
+GHSA-p734-xg27-8cfq,@bunt/app,0.29.22,Prototype pollution in izatop bunt,,,8,2,74,,,,,31481
+GHSA-pc47-g7gv-4gpw,@rpldy/uploader,1.9.0,@rpldy/uploader prototype pollution,,,25,36,24,,,,,5382
+GHSA-pfv6-prqm-85q8,madlib-object-utils,0.1.7,Prototype Pollution in madlib-object-utils,,(api-error),no sarif,2,4,,,,,99
+GHSA-ph28-wwfj-fv7f,sds,4.4.0,Prototype Pollution in sds,,(api-error),no sarif,11,23,,,,,3352
+GHSA-pmh2-wpjm-fj45,mysql2,3.9.7,mysql2 vulnerable to Prototype Pollution,,,1,33,180,,,,,23991
+GHSA-pp75-xfpw-37g9,grpc,1.24.3,Prototype pollution in grpc and @grpc/grpc-js,,(api-error),no sarif,no sarif,no export api,,,,,no loc
+GHSA-pqwc-3vhw-qcvq,shvl,2.0.1,shvl vulnerable to prototype pollution,,y,10,7,2,,,,,16
+ghsa-prm5-8g2m-24gg,,,,,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-q42p-pg8m-cqh6,handlebars,4.1.1,Prototype Pollution in handlebars,,,no sarif,52,195,,,,,58544
+GHSA-q4j7-v27r-fgcx,realms-shim,1.2.2,Prototype Pollution in realms-shim,,(api-error),no sarif,0,6,,,,,2323
+GHSA-q5j8-9m9g-x2jh,module-from-string,3.3.1,module-from-string prototype pollution,,y,1,8,9,,,,,4225
+GHSA-q9wr-gcjc-hq52,reggae,0.0.2,Prototype Pollution in reggae,,(api-error),no sarif,2,2,,,,,2644
+GHSA-q9xg-h756-8689,jquery-query-object,2.2.3,jquery-plugin-query-object contains prototype pollution vulnerability,,(api-error),no sarif,0,0,,,,,49505
+GHSA-qccf-q7p4-3q3j,safe-object2,1.0.3,Prototype Pollution in safe-object2,,(api-error),no sarif,2,3,,,,,100
+GHSA-qj86-v6m7-4qv2,@apphp/object-resolver,3.1.0,Object Resolver Prototype Pollution,,y,5,5,10,,,,,706
+GHSA-qwp9-52h8-xgg8,jointjs,3.2.0,Prototype pollution in JointJS,,,no sarif,no sarif,no export api,,,,,170484
+GHSA-r5cq-9537-9rpf,mixme,0.5.0,Prototype Pollution in mixme,,(api-error),no sarif,2,7,,,,,424
+GHSA-r737-347m-wqc7,browserify-shim,3.8.15,thlorenz browserify-shim vulnerable to prototype pollution,,,1,0,25,,,,,168965
+GHSA-r7jx-5m6m-cpg9,eazy-logger,4.0.1,eazy-logger prototype pollution,,,1,1,14,,,,,2996
+GHSA-r9w3-g83q-m6hq,deepmerge-ts,4.0.1,Prototype Pollution in deepmerge-ts,,(api-error),no sarif,0,2,,,,,426
+GHSA-rc4v-99cr-pjcm,@seal-security/mongoose-fixed,5.3.3,Prototype Pollution in ali-security/mongoose,,,337,no sarif,89,,,,,157245
+GHSA-rfv9-x7hh-xc32,matrix-js-sdk,19.3.0,matrix-js-sdk Prototype Pollution vulnerability,,(api-error),no sarif,no sarif,1095,,,,,143126
+ghsa-rjf2-j2r6-q8gr,,,,,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-rmhg-2cvv-q7vx,dot-lens,1.2.3,dot-lens vulnerable to Prototype Pollution,,,1,no sarif,no export api,,,,,no loc
+GHSA-rrqm-p222-8ph2,dynamoose,2.6.0,Prototype Pollution in Dynamoose,,(api-error),no sarif,no sarif,no export api,,,,,no loc
+GHSA-v2mw-5mch-w8c5,canvg,4.0.2,canvg Prototype Pollution vulnerability,,,125,no sarif,no export api,,,,,no loc
+ghsa-v39h-qm32-8gwq,,,,,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-v88g-cgmw-v5xw,ajv,6.12.2,Prototype Pollution in Ajv,,(api-error),no sarif,no sarif,no export api,,,,,no loc
+GHSA-v9mx-4pqq-h232,bun,1.1.29,Bun has an Application-level Prototype Pollution vulnerability in the runtime native API for Glo,,,0,no sarif,no export api,,,,,no loc
+GHSA-v9p9-535w-4285,litespeed.js,0.3.11,Prototype Pollution in litespeed.js and appwrite/server-ce,,(api-error),no sarif,no sarif,no export api,,,,,no loc
+GHSA-vg6v-jcg3-5mp7,@aofl/cli-lib,3.14.0,@aofl/cli-lib Prototype Pollution vulnerability,,y,1,no sarif,no export api,,,,,no loc
+GHSA-vhxc-fhm5-qcp9,bodymen,1.1.1,Prototype Pollution in bodymen,,(api-error),no sarif,no sarif,no export api,,,,,no loc
+GHSA-vpgw-ffh3-648h,fullpage.js,4.0.1,Prototype Pollution in fullpage.js,,(api-error),no sarif,no sarif,no export api,,,,,no loc
+GHSA-vrr3-5r3v-7xfw,casperjs,1.1.4,Improperly Controlled Modification of Dynamically-Determined Object Attributes in casperjs,,(api-error),no sarif,no sarif,no export api,,,,,no loc
+GHSA-vvv8-xw5f-3f88,mout,1.2.3,Prototype Pollution in mout,,,2,no sarif,no export api,,,,,no loc
+GHSA-vwhq-pm3r-fjm9,steal,2.3.0,steal vulnerable to Prototype Pollution via key variable in babel.js,,,4,no sarif,no export api,,,,,no loc
+GHSA-vxr4-rxw7-g7v6,comb,2.0.0,Prototype Pollution in comb,,(api-error),no sarif,no sarif,no export api,,,,,no loc
+GHSA-w457-6q6x-cgp9,handlebars,4.2.2,Prototype Pollution in handlebars,,(api-error),no sarif,no sarif,no export api,,,,,no loc
+GHSA-w58v-r3cp-qr93,@amoy/common,1.0.10,@amoy/common v was discovered to contain a prototype pollution via the function extend,,y,4,no sarif,no export api,,,,,no loc
+GHSA-wc4x-qmr2-rj8h,steal,2.3.0,steal vulnerable to Prototype Pollution via alias variable,,,94,no sarif,no export api,,,,,no loc
+GHSA-wg6g-ppvx-927h,cached-path-relative,1.0.2,Prototype Pollution in cached-path-relative,,(api-error),no sarif,no sarif,no export api,,,,,no loc
+GHSA-whpx-g542-7c7v,@cat5th/key-serializer,0.2.5,@cat5th/key-serializer Prototype Pollution vulnerability,,(api-error),4,no sarif,no export api,,,,,no loc
+GHSA-wjpc-cgvw-xx23,sey,0.3.0,Prototype Pollution in sey,,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-wvr2-q86m-6whp,baobab,2.6.0,Baobab vulnerable to Prototype Pollution,,y,5,no sarif,no export api,,,,,no loc
+GHSA-wwxh-74fx-33c6,@aedart/support,0.6.0,"Possible prototype pollution in metadata record, when using meta decorator",,,81,no sarif,no export api,,,,,no loc
+GHSA-wxfj-84xf-7gxv,utilities,1.0.6,mde utilities contains Prototype Pollution,,y(api-error),4,no sarif,no export api,,,,,no loc
+GHSA-wxgw-qj99-44c2,node-forge,0.9.2,Prototype Pollution in node-forge util.setPath API,,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-x2w5-725j-gf2g,convict,6.2.2,Prototype Pollution in convict,,(api-error),no sarif,no sarif,no export api,,,,,no loc
+GHSA-x3cc-x39p-42qx,fast-xml-parser,4.1.1,fast-xml-parser vulnerable to Prototype Pollution through tag or attribute name,,,3,no sarif,no export api,,,,,no loc
+GHSA-x3m3-4wpv-5vgc,requirejs,2.3.6,jrburke requirejs vulnerable to prototype pollution,,(api-error),2,no sarif,no export api,,,,,no loc
+GHSA-x5m8-2r8v-8f97,libnested,1.5.1,Prototype Pollution in libnested,,(api-error),no sarif,no sarif,no export api,,,,,no loc
+GHSA-xcvv-84j5-jw9h,assign-deep,0.4.6,Prototype Pollution in assign-deep,,(api-error),no sarif,no sarif,no export api,,,,,no loc
+GHSA-xg68-chx2-253g,jquery-deparam,0.5.3,Prototype Pollution in jquery-deparam,,(api-error),no sarif,no sarif,no export api,,,,,no loc
+GHSA-xp9c-82x8-7f67,@node-red/runtime,1.2.7,Prototype Pollution in Node-Red,,(api-error),no sarif,no sarif,no export api,,,,,no loc
+GHSA-xprv-wvh7-qqqx,parse-server,4.10.18,Parse Server vulnerable to Prototype Pollution via Cloud Code Webhooks or Cloud Code Triggers,,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-xvch-5gv4-984h,minimist,1.2.5,Prototype Pollution in minimist,,,6,no sarif,no export api,,,,,no loc
+SNYK-JS-2O3TUTILITY-7417404,2o3t-utility,0.1.2,"Prototype Pollution Affecting 2o3t-utility package, versions *",,,2,no sarif,no export api,,,,,no loc
+SNYK-JS-ABIPSPCOMMON-7417996,@abip/sp-common,0.5.4,"Prototype Pollution Affecting @abip/sp-common package, versions *",,(api-error),7,no sarif,no export api,,,,,no loc
+SNYK-JS-AGREEJSSHARED-7417398,@agreejs/shared,0.0.1,"Prototype Pollution Affecting @agreejs/shared package, versions *",,y,2,no sarif,no export api,,,,,no loc
+SNYK-JS-AJAXREQUEST-8706726,ajax-request,1.2.3,"Prototype Pollution Affecting ajax-request package, versions *",,,3,no sarif,no export api,,,,,no loc
+SNYK-JS-ALEXBINARYOBJECTDEEPASSIGN-7268042,@alexbinary/object-deep-assign,1.0.11,"Prototype Pollution Affecting @alexbinary/object-deep-assign package, versions *",,,no sarif,no sarif,no export api,,,,,no loc
+SNYK-JS-APOLLOGATEWAY-174915,@apollo/gateway,0.6.1,"Prototype Pollution Affecting @apollo/gateway package, versions <0.6.2",,(api-error),no sarif,no sarif,no export api,,,,,no loc
+SNYK-JS-C3UTILS1-7417399,@c3/utils-1,1.0.131,"Prototype Pollution Affecting @c3/utils-1 package, versions *",,,no sarif,no sarif,no export api,,,,,no loc
+SNYK-JS-CAHILUTILS-7417401,@cahil/utils,2.3.2,"Prototype Pollution Affecting @cahil/utils package, versions *",,,no sarif,no sarif,no export api,,,,,no loc
+SNYK-JS-CHARTIST-7850459,chartist,1.3.0,"Prototype Pollution Affecting chartist package, versions <1.3.1",,,0,no sarif,no export api,,,,,no loc
+SNYK-JS-CHASEMOSKALSNAPSTATE-7575313,@chasemoskal/snapstate,0.0.9,"Prototype Pollution Affecting @chasemoskal/snapstate package, versions *",,y,1,no sarif,no export api,,,,,no loc
+SNYK-JS-CLIUTIL-8706724,cli-util,1.1.27,"Prototype Pollution Affecting cli-util package, versions *",,(api-error),no sarif,no sarif,no export api,,,,,no loc
+SNYK-JS-DOTPROPERTIES-8706723,dot-properties,1.0.1,"Prototype Pollution Affecting dot-properties package, versions <1.0.2",,y,4,no sarif,no export api,,,,,no loc
+SNYK-JS-DOTQS-8709975,dot-qs,0.2.0,"Prototype Pollution Affecting dot-qs package, versions *",,,no sarif,no sarif,no export api,,,,,no loc
+SNYK-JS-INTLIFYCOREBASE-9376704,@intlify/core-base,9.1.10,"Prototype Pollution Affecting @intlify/core-base package, versions >=9.1.0 <9.1.11",,(api-error),no sarif,no sarif,no export api,,,,,no loc
+SNYK-JS-LODASHZIPOBJECTDEEP-6139238,lodash.zipobjectdeep,4.4.2,"Prototype Pollution Affecting lodash.zipobjectdeep package, versions *",,,no sarif,no sarif,no export api,,,,,no loc
+SNYK-JS-NODEOPCUAALARMCONDITION-8708050,node-opcua-alarm-condition,2.134.0,"Prototype Pollution Affecting node-opcua-alarm-condition package, versions <2.137.0",,(api-error),no sarif,no sarif,no export api,,,,,no loc
+SNYK-JS-PARSEGITCONFIG-9403763,parse-git-config,3.0.0,"Prototype Pollution Affecting parse-git-config package, versions *",,(api-error),no sarif,no sarif,no export api,,,,,no loc
+SNYK-JS-PHPDATEFORMATTER-8709964,php-date-formatter,1.3.6,"Prototype Pollution Affecting php-date-formatter package, versions <1.3.7",,,0,no sarif,no export api,,,,,no loc
+SNYK-JS-PHPPARSER-8709963,php-parser,3.2.5,"Prototype Pollution Affecting php-parser package, versions *",,y,6,no sarif,no export api,,,,,no loc
+SNYK-JS-REDOC-8664933,redoc,2.3.0,"Prototype Pollution Affecting redoc package, versions <2.4.0",,,0,no sarif,no export api,,,,,no loc
+SNYK-JS-STRYKERMUTATORUTIL-8706737,@stryker-mutator/util,8.7.0,"Prototype Pollution Affecting @stryker-mutator/util package, versions <8.7.1",,(api-error),no sarif,no sarif,no export api,,,,,no loc
+snyk-js-syncfusionej2spreadsheet-8706813,syncfusionej2spreadsheet,,SNYK vulnerability: SNYK-JS-SYNCFUSIONEJ2SPREADSHEET-8706813,,,no sarif,no sarif,no export api,,,,,no loc
+SNYK-JS-TANSTACKFORMCORE-8706814,@tanstack/form-core,0.42.0,"Prototype Pollution Affecting @tanstack/form-core package, versions <0.42.1",,y,2,no sarif,no export api,,,,,no loc
+SNYK-JS-UNDERSCORECONTRIB-8706728,underscore-contrib,0.3.0,"Prototype Pollution Affecting underscore-contrib package, versions *",,y,9,no sarif,no export api,,,,,no loc
+SNYK-JS-UTILE-8706797,utile,0.3.0,"Prototype Pollution Affecting utile package, versions *",,(api-error),no sarif,no sarif,no export api,,,,,no loc
+SNYK-JS-WHETEXTEND-3178372,whet.extend,0.9.9,"Prototype Pollution Affecting whet.extend package, versions *",,(api-error),no sarif,no sarif,no export api,,,,,no loc
+SNYK-JS-XEUTILS-8708047,xe-utils,3.7.1,"Prototype Pollution Affecting xe-utils package, versions <3.7.2",,,26,no sarif,no export api,,,,,no loc

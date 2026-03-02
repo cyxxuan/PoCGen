@@ -1,0 +1,191 @@
+﻿ID,package,version,description,PoCGen,PoCGen_GLM,PoCGen_CodeQL_Result_Num,CodeQL_vanilla,Dynamic Source Export,Source Agent,Sink Agent,CallEdge Agent,CodeQL_Enhanced,Lines of code
+GHSA-2275-rpf5-xv8h,is-http2,1.2.0,is-http2 vulnerable to Improper Input Validation,y,(api-error),no sarif,0,no export api,,,,,54432
+GHSA-2877-693q-pj33,genieacs,1.2.7,OS Command Injection in GenieACS,failed,(api-error),no sarif,0,0,,,,,0
+GHSA-29gp-92wp-94q8,react-dev-utils,1.0.3,react-dev-utils on Windows vulnerable to Remote Code Execution,y,(api-error),no sarif,69,0,,,,,110350
+GHSA-2c83-wfv3-q25f,rebber,5.2.0,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') in ZMarkdown,failed,,20,11,2,,,,,1572
+GHSA-2m8v-572m-ff2v,systeminformation,4.34.23,Command Injection Vulnerability,failed,(api-error),no sarif,122,no export api,,,,,10907
+GHSA-3f95-r44v-8mrg,simple-git,3.2.6,Command injection in simple-git,failed,,2,20,97,,,,,9381
+GHSA-3fw4-4h3m-892h,serial-number,1.3.0,OS Command Injection in serial-number,y,(api-error),no sarif,no sarif,no export api,,,,,no loc
+GHSA-3fxp-vwxm-2r5p,gitlogplus,3.1.7,Command injection in gitlogplus,y,(api-error),no sarif,no sarif,1,,,,,1010
+GHSA-3hq6-rmv7-39vh,op-browser,1.0.9,Injection in op-browser,failed,(api-error),no sarif,24,2,,,,,174
+GHSA-3p94-vj97-fm4q,fsa,0.5.1,OS Command Injection in fsa,y,y,1,12,0,,,,,702
+GHSA-3q9x-w53p-jg53,heroku-addonpool,0.1.15,OS Command Injection in heroku-addonpool,failed,,no sarif,13,no export api,,,,,416
+GHSA-3x62-x456-q2vm,git-pull-or-clone,2.0.1,OS Command Injection in git-pull-or-clone,failed,(api-error),no sarif,10,1,,,,,1466
+GHSA-4228-7qvx-f4rq,devcert,1.1.1,Injection and Command Injection in devcert,failed,(api-error),no sarif,no sarif,no export api,,,,,54856
+GHSA-426h-24vj-qwxf,npm-programmatic,0.0.12,Command Injection in npm-programmatic,y,(api-error),no sarif,6,3,,,,,13896
+ghsa-446w-rrm4-r47f,,,,failed,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-49q3-8867-5wmp,reg-keygen-git-hash-plugin,0.10.15,Remote Command Execution in reg-keygen-git-hash-plugin,y,(api-error),no sarif,0,28,,,,,61936
+GHSA-49vv-6q7q-w5cf,strapi,3.0.0-beta.17.7,OS Command Injection in Strapi,failed,,0,73,no export api,,,,,415510
+GHSA-4g7x-7vgq-3j28,aaptjs,1.3.1,Vulnerability in list function leads to arbitrary code execution via filePath parameters,y,y,1,1,8,,,,,8729
+GHSA-4gfq-6m28-m5mg,freediskspace,0.1.2,Improper neutralization of arguments in freediskspace,y,(api-error),no sarif,9,2,,,,,1515
+GHSA-4gp3-p7ph-x2jr,devcert-sanscache,0.4.6,OS Command Injection in devcert-sanscache,y,(api-error),no sarif,0,1,,,,,4364
+GHSA-4j54-mxf6-wxx2,pomelo-monitor,0.3.7,OS Command Injection in pomelo-monitor,y,(api-error),no sarif,6,2,,,,,173
+GHSA-4q8f-5xxj-946r,addax,1.0.6,Command Injection in addax,failed,(api-error),no sarif,7,0,,,,,46605
+GHSA-4qqc-mp5f-ccv4,bestzip,2.1.6,Command Injection in bestzip,y,(api-error),no sarif,12,1,,,,,52021
+GHSA-4qwq-q4pr-rr7r,aaptjs,1.3.1,Vulnerability in packageCmd function leads to arbitrary code execution via filePath parameters,y,y,1,1,8,,,,,8729
+GHSA-4v2w-h9jm-mqjg,systeminformation,4.30.4,Prototype Pollution in systeminformation,y,(api-error),no sarif,119,no export api,,,,,10306
+GHSA-4v9w-pvwr-38h3,strong-nginx-controller,1.0.2,OS Command Injection in strong-nginx-controller,failed,,0,1,1,,,,,930641
+GHSA-4x6x-782q-jfc4,node-wifi,2.0.11,Command Injection in node-wifi,y,(api-error),no sarif,33,5,,,,,7389
+GHSA-533p-g2hq-qr26,treekill,1.0.0,Command Injection in treekill,failed,(api-error),no sarif,3,1,,,,,92
+GHSA-53xv-c2hx-5w6q,node-windows,1.0.0-beta.5,Command Injection in node-windows,y,(api-error),no sarif,12,0,,,,,3230
+GHSA-549h-r7g9-2qpf,n158,1.4.1,n158 vulnerable to Command Injection due to improper input sanitization in the 'module.exports' function,y,y,2,9,0,,,,,113726
+GHSA-552j-pv39-f3jf,ssl-utils,1.0.0,OS Command injection in ssl-utils,y,(api-error),no sarif,2,13,,,,,605
+ghsa-5875-m6jq-vf78,,,,failed,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-5c8j-xr24-2665,printer,0.0.1,Potential Command Injection in printer,failed,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-5f4x-hwv2-w9w2,hfs,0.52.9,rejetto HFS vulnerable to OS Command Execution by remote authenticated users,failed,(api-error),no sarif,2,0,,,,,190068
+GHSA-5fw9-fq32-wv5p,node-notifier,5.4.5,OS Command Injection in node-notifier,y,(api-error),no sarif,24,24,,,,,3125
+GHSA-5h8c-8ccp-8gmh,mt7688-wiscan,0.8.2,mt7688-wiscan is vulnerable to Command Injection due to improper input sanitization,y,(api-error),no sarif,3,3,,,,,153
+GHSA-5mvm-89c9-9gm5,matrix-appservice-irc,0.36.1,Matrix IRC Bridge allows IRC command injection to own puppeted user,failed,(api-error),no sarif,0,no export api,,,,,7
+GHSA-5q88-cjfq-g2mh,codecov,3.6.4,codecov NPM module allows remote attackers to execute arbitrary commands,failed,(api-error),no sarif,16,3,,,,,41376
+GHSA-5wqj-f379-6jh4,kill-process-on-port,1.0.2,Command injection in kill-process-on-port,failed,(api-error),no sarif,no sarif,no export api,,,,,100691
+GHSA-62cx-5xj4-wfm4,ggit,2.4.12,ggit is vulnerable to Command Injection via the fetchTags(branch) API,y,y,1,82,26,,,,,122541
+GHSA-63m4-fhf2-cmf7,windows-cpu,0.1.4,Command Execution in windows-cpu,fp,(api-error),no sarif,10,6,,,,,230
+GHSA-652h-xwhf-q4h6,ssh2,1.3.0,OS Command Injection in ssh2,failed,,0,389,123,,,,,24792
+GHSA-65xx-c85x-wg76,plotter,0.5.0,Command Injection in plotter,y,(api-error),no sarif,20,1,,,,,1147
+GHSA-6722-xvq8-3254,sketchsvg,0.0.1,SketchSVG Arbitrary Code Injection vulnerability,y,(api-error),no sarif,1,0,,,,,431987
+GHSA-67mm-m3wx-j7fr,gitlog,4.0.3,Command injection in gitlog,y,(api-error),no sarif,33,2,,,,,2136
+GHSA-69f2-4375-qv9h,smartctl,1.0.0,Command injection in smartctl,y,(api-error),no sarif,1,132,,,,,90
+GHSA-69f9-h8f9-7vjf,snyk-php-plugin,1.9.4,OS Command Injection in Snyk php plugin,y,,2,3,1,,,,,13167
+GHSA-6c3f-p5wp-34mh,async-git,1.13.1,OS Command Injection in async-git,y,(api-error),no sarif,13,3,,,,,197
+GHSA-6m4r-m3gc-h4r5,install-package,0.4.0,OS Command Injection in install-package,y,(api-error),no sarif,3,1,,,,,144
+GHSA-6m8p-4fxj-pgc2,mversion,1.13.0,OS Command Injection in mversion,failed,(api-error),no sarif,13,no export api,,,,,69578
+GHSA-6q8m-42qq-64r7,@zowe/imperative,5.7.0,Imperative CLI vulnerable to Command Injection,failed,(api-error),no sarif,238,255,,,,,293340
+GHSA-7249-8x22-4rg4,nadesiko3,3.3.74,nadesiko3 vulnerable to OS Command Injection,failed,(api-error),no sarif,296,no export api,,,,,111978
+GHSA-753c-phhg-cj29,madge,4.0.0,Madge vulnerable to command injection,failed,(api-error),no sarif,no sarif,1,,,,,171943
+GHSA-75w2-qv55-x7fv,openssl,2.0.0,openssl npm package vulnerable to command execution,y,y,1,6,1,,,,,52
+GHSA-77qv-gh6f-pgh4,limdu,0.9.4,Command Injection in Limdu,failed,(api-error),no sarif,252,102,,,,,90842
+GHSA-792j-9wj3-j634,github-todos,3.1.0,Command injection in github-todos,failed,(api-error),no sarif,45,1,,,,,217058
+GHSA-795w-7426-m94j,@stoqey/gnuplot,0.0.3,stoqey/gnuplot is vulnerable to command injection,y,y,3,31,1,,,,,45952
+GHSA-79qm-h35f-hr77,compile-sass,1.0.4,OS Command Injection in compile-sass,failed,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-7fv9-m79r-j9x8,electron,1.3.15,Electron vulnerable to remote command execution,failed,(api-error),no sarif,1,0,,,,,76129
+GHSA-7fw7-gh23-f832,aaptjs,1.3.1,Vulnerability in singleCrunch function leads to arbitrary code execution via filePath parameters,y,y,1,1,8,,,,,8729
+GHSA-7h8x-wmq2-7mff,launchpad,0.7.5,Command injection in launchpad,fp,(api-error),no sarif,10,3,,,,,69609
+GHSA-7r9x-hr76-jr96,giting,0.0.8,Command Injection in giting,failed,(api-error),no sarif,28,1,,,,,3961
+GHSA-7xcx-6wjh-7xp2,standard-version,8.0.0,Command Injection in standard-version,failed,(api-error),no sarif,25,1,,,,,122800
+GHSA-7xhv-mpjw-422f,google-it,1.6.2,Command injection in google-it,y,(api-error),no sarif,28,1,,,,,142750
+GHSA-84cm-v6jp-gjmr,git-diff-apply,0.22.1,OS command injection in git-diff-apply,y,(api-error),no sarif,22,1,,,,,31933
+GHSA-8695-fr6h-9fq8,nuance-gulp-build-common,0.0.1,Command Injection in nuance-gulp-build-common,y,(api-error),no sarif,4,1,,,,,19
+GHSA-884p-74jh-xrg2,tree-kill,1.2.1,Command Injection in tree-kill,fp,(api-error),no sarif,7,1,,,,,124
+GHSA-88qf-5f3v-pm6m,dawnsparks-node-tesseract,0.4.0,Remote code execution in dawnsparks-node-tesseract,y,(api-error),no sarif,4,1,,,,,16105
+ghsa-8c3f-x5f9-6h62,,,,failed,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-8h3g-hcwp-6hxq,semver-tags,0.4.10,semver-tags is vulnerable to Command Injection via the getGitTagsRemote function,y,(api-error),no sarif,13,1,,,,,40417
+GHSA-8j36-q8x7-pm6q,systeminformation,4.30.1,OS Command Injection in systeminformation,failed,,3,119,no export api,,,,,10253
+ghsa-8j6j-4h2c-c65p,,,,failed,,no sarif,no sarif,no export api,,,,,no loc
+ghsa-8jmw-wjr8-2x66,,,,fp,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-8mgg-5x65-m4m4,soletta-dev-app,0.0.7,Command Injection in soletta-dev-app,y,(api-error),no sarif,45,0,,,,,109328
+GHSA-8mrf-64fw-2x75,fs-path,0.0.24,Command injection in fs-path,y,(api-error),no sarif,38,11,,,,,1289
+GHSA-8px5-63x9-5c7p,pullit,1.3.0,pullit vulnerable to command injection,failed,(api-error),no sarif,3,497,,,,,12827
+GHSA-8vw3-vxmj-h43w,bwm-ng,0.1.1,bwm-ng vulnerable to command injection,y,(api-error),no sarif,3,1,,,,,39
+GHSA-926x-m6m5-3mmp,push-dir,0.4.1,push-dir Enables OS Command Injection,failed,(api-error),no sarif,22,1,,,,,1275
+GHSA-934x-72xh-5hrg,aws-lambda,1.0.4,OS command injection in aws-lambda,failed,(api-error),no sarif,20,8,,,,,404151
+GHSA-94xh-2fmc-xf5j,systeminformation,4.27.10,systeminformation command injection vulnerability,fp,(api-error),no sarif,118,no export api,,,,,10043
+GHSA-95rp-6gqp-6622,find-exec,1.0.2,Command Injection Vulnerability in find-exec,y,y,1,10,1,,,,,59
+GHSA-995x-33wq-8gc9,cycle-import-check,1.3.1,cycle-import-check vulnerable to Command Injection,fp,(api-error),no sarif,28,3,,,,,72182
+GHSA-9cq3-fj2h-ggj5,aaptjs,1.3.1,Vulnerability in remove function leads to arbitrary code execution via filePath parameters,y,y,1,1,8,,,,,8729
+GHSA-9hqj-38j2-5jgm,ascii-art,1.4.2,Command Injection in ascii-art,failed,(api-error),no sarif,24,21,,,,,63402
+GHSA-9mjx-wfqp-j5ph,window-control,1.4.4,window-control vulnerable to Command Injection due to improper input sanitization,y,(api-error),no sarif,12,3,,,,,4748
+GHSA-9p2w-rmx4-9mw7,strapi,3.0.0-beta.17.7,Command Injection in strapi,failed,(api-error),no sarif,73,no export api,,,,,415510
+GHSA-9p95-fxvg-qgq2,simple-git,3.14.1,simple-git vulnerable to Remote Code Execution when enabling the ext transport protocol,failed,(api-error),no sarif,25,0,,,,,10260
+GHSA-9px9-f7jw-fwhj,priest-runner,0.3.12,Command Injection in priest-runner,y,(api-error),no sarif,417,1,,,,,60497
+GHSA-9v73-x562-wv5x,gitsome,0.2.3,OS Command Injection in gitsome,failed,(api-error),no sarif,3,1,,,,,12547
+GHSA-c5hm-xc74-pqrg,jscover,1.0.0,OS Command Injection in jscover,y,(api-error),no sarif,6,1,,,,,2455
+GHSA-c9j3-wqph-5xx9,egg-scripts,2.8.0,Command Injection in egg-scripts,failed,(api-error),no sarif,19,no export api,,,,,115009
+GHSA-cfwc-xjfp-44jg,gnuplot,0.3.1,Command Injection in gnuplot,failed,(api-error),no sarif,1,108,,,,,204
+GHSA-chj3-f7xw-367m,git-promise,1.0.0,OS Command Injection in git-promise,y,y,1,3,1,,,,,108
+GHSA-cr6m-62pq-hmqh,npm-lockfile,2.0.4,OS Command injection in npm-lockfile,y,(api-error),no sarif,15,0,,,,,93597
+GHSA-cv76-rv4h-4mqc,proctree,0.1.1,OS Command Injection in proctree,y,,3,4,no export api,,,,,11798
+GHSA-f259-h6m8-hm8m,exec-local-bin,1.1.1,exec-local-bin vulnerable to Command Injection,y,(api-error),no sarif,3,1,,,,,20
+ghsa-f2jw-pr2c-9x96,,,,failed,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-f698-m2v9-5fh3,opencv,6.0.0,Command Injection in opencv,failed,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-f8fh-8rgm-227h,node-prompt-here,1.0.1,OS Command Injection in node-prompt-here,fp,(api-error),no sarif,2,no export api,,,,,22
+GHSA-ff45-7prw-58vj,docker-cli-js,2.8.0,OS Command injection in docker-cli-js,y,y,2,6,4,,,,,64637
+GHSA-fj59-f6c3-3vw4,systeminformation,4.26.1,Command Injection in systeminformation,y,(api-error),no sarif,113,no export api,,,,,9914
+GHSA-fj78-2vc5-f6cm,versionn,1.0.6,Versionn Command Injection Vulnerability,y,,1,15,1,,,,,4510
+ghsa-fjqr-fx3f-g4rv,,,,failed,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-fm76-w8jw-xf8m,@saltcorn/plugins-loader,1.0.0-beta.13,@saltcorn/plugins-loader unsanitized plugin name leads to a remote code execution (RCE) vulnerability when creating plugins using git source,y,,2,0,0,,,,,757523
+GHSA-fmf5-j5j9-99pp,pulverizr,0.7.0,OS Command Injection in pulverizr,fp,(api-error),no sarif,14,1,,,,,26242
+GHSA-fpr8-4wvx-j9q3,node-qpdf,1.0.3,node-qpdf vulnerable to command injection,y,y,2,7,2,,,,,113
+GHSA-g2c3-vwff-m3xr,font-converter,1.1.1,Font-Converter Vulnerable to Arbitrary Command Injection,y,(api-error),no sarif,3,1,,,,,10
+GHSA-g4hj-r7r3-9rwv,gulp-scss-lint,1.0.0,OS Command Injection in gulp-scss-lint,y,(api-error),no sarif,15,25,,,,,40471
+GHSA-g4rg-993r-mgx7,shell-quote,1.7.2,Improper Neutralization of Special Elements used in a Command in Shell-quote,y,(api-error),no sarif,103,2,,,,,406
+GHSA-g5qr-xgg7-8q2w,puppet-facter,0.0.2,Command Injection in puppet-facter,y,(api-error),no sarif,3,2,,,,,23
+GHSA-g8vp-6hv4-m67c,entitlements,1.2.0,Command Injection in entitlements,y,(api-error),no sarif,3,1,,,,,38225
+GHSA-gc94-6w89-hpqr,fs-path,0.0.24,Command Injection in fs-path,y,(api-error),no sarif,38,11,,,,,1289
+GHSA-gg96-f8wr-p89f,@backstage/plugin-techdocs,0.9.4,Script injection,failed,(api-error),no sarif,no sarif,0,,,,,1340383
+GHSA-gp2j-mg4w-2rh5,chrome-launcher,0.13.1,chrome-launcher subject to OS Command Injection,failed,(api-error),no sarif,0,no export api,,,,,24168
+GHSA-gp95-ppv5-3jc5,sharp,0.30.4,sharp vulnerable to Command Injection in post-installation over build environment,fp,(api-error),no sarif,77,127,,,,,17381
+GHSA-gwp3-f7mr-qpfv,s3-uploader,2.0.3,OS Command Injection in s3-uploader,y,y(api-error),1,8,1,,,,,417407
+GHSA-gx6r-qc2v-3p3v,systeminformation,5.21.6,systeminformation SSID Command Injection Vulnerability,failed,,0,151,no export api,,,,,15020
+GHSA-h33p-5j96-w8qh,gulp-styledocco,0.0.3,OS Command Injection in gulkp-styledocco,y,(api-error),no sarif,3,46,,,,,14293
+GHSA-h42j-mrmp-9369,git-commit-info,2.0.1,git-commit-info vulnerable to Command Injection,failed,(api-error),no sarif,0,1,,,,,3705
+GHSA-h53w-7qw7-vh5c,snowflake-sdk,1.6.20,Snowflake NodeJS Driver vulnerable to Command Injection,failed,(api-error),no sarif,103,0,,,,,703173
+GHSA-h86x-mv66-gr5q,locutus,2.0.11,OS Command Injection in Locutus,fp,(api-error),no sarif,124,330,,,,,14981
+GHSA-hf8c-xr89-vfm5,ungit,1.5.19,Command Injection in ungit,failed,,no sarif,4,0,,,,,904048
+GHSA-hm92-vgmw-qfmx,chromedriver,119.0.0,chromedriver Command Injection vulnerability,failed,y,3,38,111,,,,,40154
+GHSA-hpqj-7cj6-hfj8,snyk,1.995.0,Snyk CLI affected by Command Injection vulnerability,fp,(api-error),no sarif,no sarif,0,,,,,69258
+GHSA-hxwm-x553-x359,@npmcli/git,2.0.7,Arbitrary Command Injection due to Improper Command Sanitization,failed,,1,14,6,,,,,6556
+GHSA-j6v9-xgvh-f796,wxchangba,1.0.3,Command Injection in wxchangba,fp,(api-error),no sarif,19,0,,,,,135839
+GHSA-j7fq-p9q7-5wfv,tree-kill,1.2.1,Treekill Enables OS Command Injection,failed,(api-error),no sarif,7,1,,,,,124
+GHSA-j8wr-fwf2-vvr9,create-choo-electron,2.0.0,Command Injection in create-choo-electron,y,(api-error),no sarif,25,13,,,,,5159
+GHSA-jcgr-9698-82jx,@floffah/build,0.4.0,Improper Neutralization of Special Elements used in a Command ('Command Injection') in @floffah/build,y,(api-error),no sarif,33,1,,,,,12046
+GHSA-jcw8-r9xm-32c6,dns-sync,0.1.0,Command Injection in dns-sync,y,(api-error),no sarif,6,1,,,,,1509
+GHSA-jff2-qjw8-5476,systeminformation,4.34.23,Command Injection Vulnerability in systeminformation,failed,(api-error),no sarif,122,no export api,,,,,10907
+GHSA-jfm8-hwhg-r6gg,p4,0.0.6,p4 vulnerable to Command Injection due to improper input sanitization,y,(api-error),no sarif,3,5,,,,,33
+GHSA-jx6q-fq9h-6g7q,tts-api,2.1.4,Pedroetb TTS-API OS Command Injection,y,,1,4,0,,,,,195999
+GHSA-m2fc-9h5m-29cm,@acrontum/filesystem-template,0.0.1,@acrontum/filesystem-template vulnerable to Command Injection due to fetchRepo API missing sanitization,y,(api-error),no sarif,80,49,,,,,1796
+GHSA-m57p-p67h-mq74,systeminformation,4.31.0,Command Injection Vulnerability in systeminformation,y,(api-error),no sarif,119,no export api,,,,,10366
+GHSA-m647-5wf9-3jp3,closure-compiler-stream,0.1.15,OS Command Injection in closure-compiler-stream,failed,(api-error),no sarif,10,0,,,,,3707
+GHSA-m7xq-8jp8-rj2c,npm-dependency-versions,0.3.0,Command injection in npm-dependency-versions,failed,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-m8r5-7wf4-63mw,nadesiko3,3.3.68,Nadesiko3 OS Command Injection vulnerability,failed,(api-error),no sarif,296,no export api,,,,,111276
+GHSA-mc7w-4cjf-c973,opencv,6.0.0,OS Command Injection in node-opencv,failed,,no sarif,no sarif,no export api,,,,,no loc
+ghsa-mfwh-5m23-j46w,,,,failed,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-mpwp-pf96-9g4r,npos-tesseract,0.0.3,npos-tesseract Command Injection vulnerability,y,(api-error),no sarif,6,1,,,,,51864
+GHSA-pf8j-vhg8-xmc3,karma-mojo,1.0.1,karma-mojo enables OS Command Injection,y,(api-error),no sarif,15,1,,,,,166648
+GHSA-ph32-23p8-9rw5,network-manager,1.0.2,Improper Input Validation in network-manager,failed,(api-error),no sarif,3,24,,,,,138
+GHSA-pmv6-gf98-p3r5,kill-port,1.3.1,Command Injection in kill-port,y,(api-error),no sarif,12,1,,,,,2996
+GHSA-pwhf-39xg-4rxw,@backstage/techdocs-common,0.6.3,Script injection,failed,(api-error),no sarif,no sarif,28,,,,,1202572
+GHSA-pxcc-hj8w-fmm7,@prisma/sdk,2.19.0,Command injection vulnerability in @prisma/sdk in getPackedPackage function,y,(api-error),no sarif,184,0,,,,,130946
+GHSA-q6pj-jh94-5fpr,docker-compose-remote-api,0.1.4,OS Command Injection in docker-compose-remote-api,y,(api-error),no sarif,27,1,,,,,19739
+GHSA-qcff-ffx3-m25c,meta-git,1.1.7,Command Injection in meta-git,fp,(api-error),no sarif,5,2,,,,,57297
+ghsa-qffw-8wg7-h665,,,,failed,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-qg8p-v9q4-gh34,shell-quote,1.6.0,Potential Command Injection in shell-quote,y,(api-error),no sarif,95,2,,,,,980
+GHSA-qhxv-296x-hjv7,@pendo324/get-process-by-name,1.0.1,@pendo324/get-process-by-name are vulnerable to Arbitrary Code Execution,y,(api-error),no sarif,3,1,,,,,14764
+GHSA-qjg4-w4c6-f6c6,mversion,1.13.0,Command injection in mversion,failed,(api-error),no sarif,13,no export api,,,,,69578
+GHSA-qm28-7hqv-wg5j,ng-packagr,10.1.0,OS Command Injection in ng-packagr,failed,(api-error),no sarif,no sarif,32,,,,,620317
+GHSA-qqqw-gm93-qf6m,snyk-gradle-plugin,4.4.0,OS Command Injection in Snyk gradle plugin,fp,,no sarif,29,10,,,,,20322
+GHSA-qr32-j4j6-3m7r,fs-git,1.0.1,Command Injection in fs-git,y,(api-error),no sarif,10,10,,,,,160
+GHSA-r3j7-x2g5-9gx6,samba-client,3.4.0,Command injection in samba-client,failed,(api-error),no sarif,9,1,,,,,214
+GHSA-r496-7hgp-53wf,aaptjs,1.3.1,Vulnerability in dump function leads to arbitrary code execution via filePath parameters,y,y,1,1,8,,,,,8729
+GHSA-rffp-mc78-wjf7,cocos-utils,1.0.0,Command Injection in cocos-utils,y,(api-error),no sarif,74,22,,,,,1518
+GHSA-rj7m-2p3g-fjxg,create-choo-app3,1.6.4,create-choo-app3 is vulnerable to Command Injection via the devInstall function,y,(api-error),no sarif,25,13,,,,,5307
+GHSA-rjvj-673q-4hfw,traceroute,1.0.0,Command Injection in traceroute,failed,(api-error),no sarif,5,1,,,,,102
+GHSA-rph7-j9qr-h8q8,codem-transcode,0.4.4,Potential Command Injection in codem-transcode,failed,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-rphm-c8gw-3r38,lifion-verify-deps,1.1.0,OS Command Injection in lifion-verify-deps,y,(api-error),no sarif,7,1,,,,,5129
+GHSA-rqgv-292v-5qgr,renovate,37.198.3,Renovate vulnerable to arbitrary command injection via helmv3 manager and registryAliases,failed,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-rv7p-mmwq-x674,pdf-image,2.0.0,Improper Input Validation and Code Injection in pdf-image,y,(api-error),no sarif,16,1,,,,,2013
+GHSA-v8v8-6859-qxm4,logkitty,0.7.0,Arbitrary shell command execution in logkitty,y,(api-error),no sarif,13,25,,,,,17133
+GHSA-vf26-7gjf-f92r,rpi,0.0.3,OS Command Injection in rpi,y,(api-error),no sarif,11,1,,,,,151
+GHSA-vhhw-xjvf-wprr,@graphql-tools/git-loader,6.2.5,Command Injection in @graphql-tools/git-loader,y,(api-error),no sarif,34,6,,,,,126251
+GHSA-vjfr-p6hp-jqqw,ungit,0.8.4,Command Injection in ungit,failed,(api-error),no sarif,0,0,,,,,258284
+GHSA-vmqq-7qvx-68qx,promise-probe,0.1.9,promise-probe OS command injection vulnerability,y,(api-error),no sarif,15,3,,,,,377
+GHSA-vqgr-mfxm-47f3,git-archive,0.1.4,git-archive vulnerable to Command Injection via exports function,y,(api-error),no sarif,5,1,,,,,6216
+GHSA-vvh2-82c7-ppfg,network,0.6.1,network Arbitrary Command Injection vulnerability,y,y,2,8,7,,,,,12975
+GHSA-vvj3-85vf-fgmw,global-modules-path,2.3.1,global-modules-path Command Injection vulnerability,y,(api-error),no sarif,28,1,,,,,174
+ghsa-w222-53c6-c86p,,,,failed,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-w5m8-5v9m-xhx5,Haraka,2.8.8,Critical severity vulnerability that affects Haraka,failed,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-w868-4576-rv24,ntesseract,0.2.8,ntesseract vulnerable to Command Injection,y,(api-error),no sarif,6,2,,,,,3237
+GHSA-wh69-wc6q-7888,dns-sync,0.2.0,Command injection in node-dns-sync,y,(api-error),no sarif,8,2,,,,,9383
+GHSA-wj6h-7chw-x4h2,get-git-data,1.3.1,Command injection in get-git-data,y,(api-error),no sarif,3,5,,,,,274
+GHSA-wjqc-j537-j9gj,git-it-electron,1.0.0,Command injection in git-it-electron,y,y,2,11,0,,,,,448341
+GHSA-wp3j-gv53-4pg8,fs-git,1.0.1,fs-git command injection vulnerability,failed,(api-error),no sarif,10,10,,,,,160
+GHSA-wq7q-5v6j-xfv6,picotts,0.1.1,Command Injection in picotts,y,(api-error),no sarif,3,1,,,,,21
+GHSA-wq8f-xmq3-5vq9,broccoli-compass,0.2.4,Remote code execution in broccoli-compass,y,y,1,14,11,,,,,25725
+GHSA-wqhw-frpx-5mmp,tomato,0.0.7,Command Injection in tomato,failed,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-wr4v-3f2h-6hhh,sonar-wrapper,0.1.3,sonar-wrapper Command Injection vulnerability,y,y,1,3,no export api,,,,,8598
+GHSA-wxrx-pc44-rcgc,keep-module-latest,1.0.1,keep-module-latest vulnerable to Command Injection due to missing input sanitization,y,,2,9,no export api,,,,,3565
+GHSA-x67x-98x7-wv26,gulp-tape,1.0.0,OS Command Injection in gulp-tape,fp,(api-error),no sarif,6,66,,,,,228898
+GHSA-xhjx-mfr6-9rr4,samsung-remote,1.2.5,Command Injection in samsung-remote,y,(api-error),no sarif,7,1,,,,,94
+GHSA-xj9v-6q2f-vqhx,wifey,2.0.7,wifey vulnerable to Command Injection due to improper input sanitization,y,(api-error),no sarif,38,5,,,,,7330
+GHSA-xrjf-phvv-r4vr,strapi,3.6.11,Command injection in strapi,failed,(api-error),no sarif,no sarif,no export api,,,,,486821
+SNYK-JS-AAPTJS-6038595,aaptjs,1.3.2,"Command Injection Affecting aaptjs package, versions *",y,(api-error),no sarif,3,8,,,,,8729
+SNYK-JS-CREATEGIT-1022150,create-git,1.0.0-1,"Command Injection Affecting create-git package, versions <1.0.0-2",failed,(api-error),no sarif,4,1,,,,,106183

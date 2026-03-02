@@ -19,7 +19,16 @@ export default class OpenAIModel extends Model {
    /**@inheritDoc */
    constructor(modelName, modelOptions) {
       super(modelName, modelOptions);
-      this.openai = new OpenAI();
+      const config = {};
+      if (process.env.OPENAI_API_KEY) {
+         config.apiKey = process.env.OPENAI_API_KEY;
+      }
+      if (process.env.OPENAI_API_BASE_URL) {
+         config.baseURL = process.env.OPENAI_API_BASE_URL;
+      }
+      this.openai = new OpenAI(config);
+      // Allow overriding model name via environment variable (e.g., for GLM-4.7)
+      this.modelName = process.env.MODEL_NAME_OVERRIDE || modelName;
       this.contextLimit = 80_000;
    }
 

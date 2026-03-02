@@ -49,7 +49,9 @@ export const MessageType = {
    RESULT: "run-result",
 };
 
-export const EXPLOIT_TIMEOUT_DURATION = 1000 * 60; // 1 minute
+export const EXPLOIT_TIMEOUT_DURATION = process.env.EXPLOIT_TIMEOUT_MS 
+   ? parseInt(process.env.EXPLOIT_TIMEOUT_MS, 10) 
+   : 1000 * 60; // 1 minute
 
 /**
  * Class representing a verifier for debugging and runtime analysis.

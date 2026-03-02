@@ -213,6 +213,7 @@ export default class Model {
       const spl = response.split("\n")[0].split(/\s*,\s*/);
       const result = [];
       for (const idxStr of spl) {
+         if (idxStr.trim() === "") continue;
          const parsedIdx = parseInt(idxStr);
          if (isNaN(parsedIdx) || parsedIdx < 0 || parsedIdx >= choices.length) {
             throw new Error(`Invalid index provided: "${idxStr}"`);

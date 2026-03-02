@@ -42,6 +42,9 @@ export default class RunnerAgent extends Runner {
 
       let sysPrompt = "a seasoned digital assistant: capable, intelligent, considerate and assertive. You have extensive research and development skills, and you don't shy away from writing some code to solve a problem. You are pragmatic and make the most out of the tools available to you.";
 
+      // Get model name from environment variable or use the model from options
+      const agentModelName = process.env.MODEL_NAME_OVERRIDE || this.opts.model || "gpt-4o-mini";
+
       const state = {
          "name": "Agent",
          "description": "",
@@ -61,8 +64,8 @@ export default class RunnerAgent extends Runner {
             "allow_fs_access": true,
             /*   "fast_llm": "gpt-3.5-turbo",
                "smart_llm": "gpt-4-turbo",*/
-            "fast_llm": "gpt-4o-mini",
-            "smart_llm": "gpt-4o-mini",
+            "fast_llm": agentModelName,
+            "smart_llm": agentModelName,
             "use_functions_api": false,
             "default_cycle_instruction": "Determine exactly one command to use next based on the given goals and the progress you have made so far, and respond using the JSON schema specified previously:",
             "big_brain": true,
@@ -87,15 +90,16 @@ export default class RunnerAgent extends Runner {
       const envFilePath = join(workspaceBaseDir, ".env");
       const envContent = `
          OPENAI_API_KEY=${process.env.OPENAI_API_KEY}
+         ${process.env.OPENAI_API_BASE_URL ? `OPENAI_API_BASE_URL=${process.env.OPENAI_API_BASE_URL}` : ''}
          TELEMETRY_OPT_IN=False,
          RESTRICT_TO_WORKSPACE=True
-         SMART_LLM_MODEL=gpt-4o-mini
-         FAST_LLM_MODEL=gpt-4o-mini
+         SMART_LLM_MODEL=${agentModelName}
+         FAST_LLM_MODEL=${agentModelName}
          FAST_TOKEN_LIMIT=4000
          SMART_TOKEN_LIMIT=8000
          EXECUTE_LOCAL_COMMANDS=True
          DISABLED_COMMANDS=ask_user,execute_python_code,execute_python_file,web_search,search
-      `.trim().split("\n").map(line => line.trim()).join("\n");
+      `.trim().split("\n").map(line => line.trim()).filter(line => line.length > 0).join("\n");
       writeFileSync(envFilePath, envContent, 'utf8');
 
       // Add state.json

@@ -1,0 +1,1 @@
+cmd_Release/obj.target/function_location.node := g++ -o Release/obj.target/function_location.node -shared -pthread -rdynamic -m64  -Wl,-soname=function_location.node -Wl,--start-group Release/obj.target/function_location/function_location.o -Wl,--end-group 

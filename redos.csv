@@ -1,0 +1,158 @@
+﻿ID,package,version,description,PoCGen,PoCGen_GLM,PoCGen_CodeQL_Result_Num,CodeQL_vanilla,Dynamic Source Export,Source Agent,Sink Agent,CallEdge Agent,CodeQL_Enhanced,Lines of code
+GHSA-28v4-jf82-jvj8,steal,2.3.0,steal vulnerable to Regular Expression Denial of Service via source and sourceWithComments,,(api-error),no sarif,0,no export api,,,,,102312
+GHSA-2j79-8pqc-r7x6,react-native-reanimated,2.9.1,react-native-reanimated vulnerable to ReDoS,,,2,no sarif,0,,,,,543048
+GHSA-2qqx-w9hr-q5gx,angular,1.8.3,angular vulnerable to regular expression denial of service via the $resource service,,(api-error),400,0,0,,,,,2
+GHSA-2vrf-hf26-jrp5,angular,1.8.3,angular vulnerable to regular expression denial of service via the angular.copy() utility,,(api-error),10,0,0,,,,,2
+GHSA-325j-24f4-qv5x,ssri,5.2.1,Regular Expression Denial of Service in ssri,,,1,1,90,,,,,426
+GHSA-36jr-mh4h-2g58,d3-color,3.0.1,d3-color vulnerable to ReDoS,,,1,0,39,,,,,1049
+GHSA-394c-5j6w-4xmx,ua-parser-js,0.7.22,ua-parser-js Regular Expression Denial of Service vulnerability,,(api-error),45,0,1,,,,,763
+GHSA-3p6v-hrg8-8qj7,@mozilla/readability,0.5.0,@mozilla/readability Denial of Service through Regex,,,1,4,58,,,,,3515
+GHSA-3phv-83cj-p8p7,nope-validator,0.12.0,nope-validator Regular Expression Denial of Service vulnerability,,,11,0,69,,,,,5064
+GHSA-3rfm-jhwj-7488,loader-utils,1.4.1,loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS) via url variable,,,1,1,10,,,,,5414
+GHSA-3rh3-wfr4-76mj,@ckeditor/ckeditor5-engine,26.0.0,Regular expression Denial of Service in multiple packages,,,2,4,0,,,,,27586
+GHSA-3rw8-4xrq-3f7p,uptime-kuma,2.0.0-dev.0,Duplicate Advisory: Uptime Kuma ReDoS vulnerability,,,2,no sarif,0,,,,,1111058
+GHSA-3xgq-45jj-v275,cross-spawn,7.0.4,Regular Expression Denial of Service (ReDoS) in cross-spawn,,,15,0,7,,,,,748
+GHSA-3xq5-wjfh-ppjc,luxon,2.5.1,Luxon Inefficient Regular Expression Complexity vulnerability,,y,1,2,185,,,,,29152
+ghsa-44pw-h2cw-w3vq,,,,,,no sarif,no sarif,no export api,,,,,no loc
+GHSA-468q-v4jj-485h,@tarojs/helper,2.2.22,Inefficient Regular Expression Complexity in taro,,,11,0,no export api,,,,,236524
+GHSA-4gmj-3p3h-gm8h,es5-ext,0.10.62,es5-ext vulnerable to Regular Expression Denial of Service in `function#copy` and `function#toStringTokens`,,,2,3,no export api,,,,,15424
+GHSA-4hpf-3wq7-5rpr,is-my-json-valid,2.17.1,Regular expression deinal of service (ReDoS) in is-my-json-valid,,y,5,0,2,,,,,1706
+GHSA-4q6p-r6v2-jvc5,get-func-name,2.0.0,Chaijs/get-func-name vulnerable to ReDoS,,,1,1,1,,,,,41
+GHSA-4w4v-5hc9-xrr2,angular,1.8.3,angular vulnerable to super-linear runtime due to backtracking,,(api-error),10,0,0,,,,,2
+GHSA-4wf5-vphf-c2xc,terser,4.8.0,Terser insecure use of regular expressions leads to ReDoS,,,0,0,916,,,,,13854
+GHSA-4x5v-gmq8-25ch,semver-regex,3.1.3,Regular expression denial of service in semver-regex,,,0,0,1,,,,,4
+GHSA-4xf9-pgvv-xx67,simple-markdown,0.5.1,Regular Expression Denial of Service in simple-markdown,,,0,7,127,,,,,1415
+GHSA-55xv-f85c-248q,jsx-slack,4.5.0,Regular Expression Denial of Service (ReDoS) in jsx-slack,,,15,0,44,,,,,3512
+GHSA-593f-38f6-jp5m,koa,2.15.3,Inefficient Regular Expression Complexity in koa,,,9,0,25,,,,,7517
+GHSA-5j4c-8p2g-v4jx,vue,2.7.16,ReDoS vulnerability in vue package that is exploitable through inefficient regex evaluation in the parseHTML function,,,8,12,145,,,,,194264
+GHSA-5pgg-2g8v-p4x9,xlsx,0.18.5,SheetJS Regular Expression Denial of Service (ReDoS),,,68,no sarif,177,,,,,76484
+GHSA-5v2h-r2cx-5xgj,marked,4.0.9,Inefficient Regular Expression Complexity in marked,,y,2,9,79,,,,,7737
+GHSA-62gr-4qp9-h98f,handlebars,4.4.4,Regular Expression Denial of Service in Handlebars,,,1,4,196,,,,,58914
+GHSA-662x-fhqg-9p8v,ua-parser-js,0.7.21,Regular Expression Denial of Service in ua-parser-js,,y,45,0,1,,,,,763
+GHSA-68qg-g787-3rp5,knwl.js,1.0.2,Knwl.js Regular Expression Denial of Service vulnerability,,,13,0,1,,,,,3230
+GHSA-6fx8-h7jm-663j,parse-uri,1.0.9,parse-uri Regular expression Denial of Service (ReDoS),,,1,0,1,,,,,39
+GHSA-6g33-8w2q-4hxv,robots-txt-guard,1.0.1,robots-txt-guard Inefficient Regular Expression Complexity vulnerability,,,0,0,1,,,,,496
+GHSA-6jqp-j69q-pm62,aws-lambda-multipart-parser,0.1.1,AWS Lambda parser is vulnerable to Regular Expression Denial of Service,,y,4,4,1,,,,,55
+GHSA-6w63-h3fj-q4vw,fast-xml-parser,4.2.3,fast-xml-parser vulnerable to Regex Injection via Doctype Entities,,,6,6,21,,,,,2149
+GHSA-7599-fqgm-v84p,rgb2hex,0.1.5,rgb2hex vulnerable to inefficient regular expression complexity,,,1,1,1,,,,,180
+GHSA-762f-c2wg-m8c8,protobufjs,6.8.5,Denial of Service in protobufjs,,(api-error),no sarif,3,no export api,,,,,24236
+GHSA-7f3x-2wcx-hww8,steal,2.3.0,steal vulnerable to Regular Expression Denial of Service via input variable,,(api-error),no sarif,0,no export api,,,,,102312
+GHSA-7fhm-mqm4-2wp7,minimist,0.2.4,Withdrawn: ESLint dependencies are vulnerable (ReDoS and Prototype Pollution),,,6,1,1,,,,,769
+GHSA-7m7q-q53v-j47v,marked,0.6.0,Regular Expression Denial of Service,,y,6,7,49,,,,,1726
+GHSA-7mwh-4pqv-wmr8,scss-tokenizer,0.4.2,Regular expression denial of service in scss-tokenizer,,,no sarif,0,1,,,,,3120
+GHSA-7p7h-4mm5-852v,trim-newlines,3.0.0,Uncontrolled Resource Consumption in trim-newlines,,y,1,2,3,,,,,10
+GHSA-7q7g-4xm8-89cq,@eslint/plugin-kit,0.2.2,Regular Expression Denial of Service (ReDoS) in @eslint/plugin-kit,,,2,4,15,,,,,2453
+GHSA-7wwv-vh3v-89cq,highlight.js,9.18.5,ReDOS vulnerabities: multiple grammars,,,18,1,15,,,,,21516
+GHSA-8462-q7x7-g2x4,bson,1.0.4,js-bson vulnerable to REDoS,,y(api-error),1,1,121,,,,,19152
+GHSA-8h55-q5qq-p685,tf2-item-format,5.9.13,(ReDoS) Regular Expression Denial of Service in tf2-item-format,,(api-error),7,0,11,,,,,20760
+GHSA-8x6c-cv3v-vp6g,cacheable-request,7.0.4,"Withdrawn: cacheable-request depends on http-cache-semantics, which is vulnerable to Regular Expression Denial of Service",,,1,2,5,,,,,1787
+GHSA-9242-6p36-6256,node-email-check,1.0.4,Inefficient Regular Expression Complexity in node-email-check,,,5,0,2,,,,,209
+GHSA-952p-6rrq-rcjv,micromatch,4.0.7,Regular Expression Denial of Service (ReDoS) in micromatch,,,1,2,15,,,,,2770
+GHSA-968p-4wvh-cqc8,@babel/helpers,7.26.9,Babel has inefficient RegExp complexity in generated code with .replace when transpiling named capturing groups,,(api-error),2,0,4,,,,,41192
+GHSA-9fhw-r42p-5c7r,@progfay/scrapbox-parser,6.0.2,Regular expression Denial of Service in @progfay/scrapbox-parser,,y,1,2,2,,,,,1452
+GHSA-9h6g-pr28-7cqp,nodemailer,6.9.8,nodemailer ReDoS when trying to send a specially crafted email,,y(api-error),1,2,3,,,,,10290
+GHSA-9vvw-cc9w-f27h,debug,1.0.5,debug Inefficient Regular Expression Complexity vulnerability,,y,0,2,13,,,,,323
+GHSA-9wv6-86v2-598j,path-to-regexp,0.1.9,path-to-regexp outputs backtracking regular expressions,,,3,3,1,,,,,85
+GHSA-c2jc-4fpr-4vhg,@sideway/formula,3.0.0,@sideway/formula contains Regular Expression Denial of Service (ReDoS) Vulnerability,,,1,1,4,,,,,354
+GHSA-c2qf-rxjj-qqgw,semver,7.5.1,semver vulnerable to Regular Expression Denial of Service,,,18,0,56,,,,,2559
+GHSA-c9f4-xj24-8jqx,uglify-js,2.5.0,Regular Expression Denial of Service in uglify-js,,,no sarif,0,no export api,,,,,15817
+GHSA-cgfm-xwp7-2cvr,sanitize-html,2.7.0,Sanitize-html Vulnerable To REDoS Attacks,,(api-error),1,1,3,,,,,12851
+GHSA-ch52-vgq2-943f,marked,0.6.3,Regular Expression Denial of Service in marked,,,5,6,49,,,,,1781
+GHSA-chw2-6c7r-37p7,uri-template-lite,22.1.0,uri-template-lite Regular Expression Denial of Service,,y,1,1,2,,,,,96
+GHSA-chwr-hf3w-c984,dat.gui,0.7.7,Regular Expression Denial of Service in dat.gui,,,3,6,0,,,,,15532
+GHSA-cmcx-xhr8-3w9p,uap-core,0.7.2,Denial of Service in uap-core when processing crafted User-Agent strings,,,no sarif,no sarif,0,,,,,0
+GHSA-cqfh-c4c5-c2hg,domain-suffix,1.0.8,domain-suffix RegEx Denial of Service,,,1,1,7,,,,,17458
+GHSA-cr84-xvw4-qx3c,shescape,1.6.0,Inefficient Regular Expression Complexity in shescape,,y,1,0,4,,,,,882
+GHSA-crmx-v835-hcp4,marked,0.3.7,Moderate severity vulnerability that affects marked,,,12,13,40,,,,,1333
+GHSA-cwfw-4gq5-mrqx,braces,2.3.0,Regular Expression Denial of Service (ReDoS) in braces,,,1,1,17,,,,,11486
+GHSA-f38p-c2gq-4pmr,schema-inspector,1.7.0,Regular Expression Denial-of-Service in npm schema-inspector,,,1,0,no export api,,,,,37026
+GHSA-f8q6-p94x-37v3,minimatch,3.0.4,minimatch ReDoS vulnerability,,y,1,1,17,,,,,817
+GHSA-ffmh-x56j-9rc3,jquery-validation,1.19.4,jquery-validation Regular Expression Denial of Service due to arbitrary input to url2 method,,(api-error),2,4,0,,,,,24449
+GHSA-fhg7-m89q-25r3,ua-parser-js,1.0.32,ReDoS Vulnerability in ua-parser-js version,,,2,1,1,,,,,664
+GHSA-fp36-299x-pwmw,devcert,1.2.0,Regular expression denial of service in devcert,,,0,12,no export api,,,,,53464
+GHSA-g78m-2chm-r7qv,websocket-extensions,0.1.3,Regular Expression Denial of Service in websocket-extensions (NPM package),,,11,0,11,,,,,442
+GHSA-g95f-p29q-9xw4,braces,2.3.0,Regular Expression Denial of Service in braces,,,1,1,17,,,,,11486
+GHSA-gj77-59wh-66hg,prismjs,1.23.0,Regular Expression Denial of Service (ReDoS) in Prism,,,4,1,21,,,,,20049
+GHSA-gpvj-gp8c-c7p2,simple-markdown,0.5.1,Regular Expression Denial of Service in simple-markdown,,,0,7,127,,,,,1415
+GHSA-h452-7996-h45h,cookiejar,2.1.3,cookiejar Regular Expression Denial of Service via Cookie.parse function,,y,1,1,12,,,,,253
+GHSA-h4hr-7fg3-h35w,prismjs,1.22.0,Denial of service in prismjs,,,8,1,21,,,,,19444
+GHSA-h5c3-5r3r-rr8q,@octokit/plugin-paginate-rest,11.4.0,@octokit/plugin-paginate-rest has a Regular Expression in iterator Leads to ReDoS Vulnerability Due to Catastrophic Backtracking,,,3,0,0,,,,,5894
+GHSA-h6ch-v84p-w6p9,diff,3.4.0,Regular Expression Denial of Service (ReDoS),,,2,2,28,,,,,2492
+GHSA-h96f-fc7c-9r55,tinymce,5.5.1,Regex denial of service vulnerability in codesample plugin,,(api-error),2,0,0,,,,,58041
+GHSA-hcrg-fc28-fcg5,parse-duration,2.1.2,parse-duration has a Regex Denial of Service that results in event loop delay and out of memory,,,0,0,1,,,,,168
+GHSA-hf66-r44g-p7j9,handsontable,9.0.2,Inefficient Regular Expression Complexity in handsontable,,(api-error),190,6,0,,,,,327003
+GHSA-hgmg-hhc8-g5wr,@ckeditor/ckeditor5-markdown-gfm,24.0.0,CKEditor 5 Markdown plugin Regular expression Denial of Service,,,6,7,0,,,,,240662
+GHSA-hhfg-6hfc-rvxm,jsoneditor,9.5.5,Regular Expression Denial of Service in jsoneditor,,,4,0,0,,,,,618809
+GHSA-hhq3-ff78-jv3g,loader-utils,1.4.1,loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS),,,1,1,10,,,,,5414
+GHSA-hjcp-j389-59ff,marked,0.3.3,Regular Expression Denial of Service in marked,,y,0,13,39,,,,,1302
+GHSA-hp68-xhvj-x6j6,jsx-slack,4.5.1,jsx-slack insufficient patch for CVE-2021-43838 ReDoS,,,15,0,44,,,,,3512
+GHSA-hpx4-r86g-5jrg,@adobe/css-tools,4.3.0,@adobe/css-tools Regular Expression Denial of Service (ReDOS) while Parsing CSS,,(api-error),5,10,2,,,,,837
+GHSA-hqhp-5p83-hx96,prismjs,1.24.1,prismjs Regular Expression Denial of Service vulnerability,,,5,1,22,,,,,19835
+GHSA-hwj9-h5mp-3pm3,postcss,7.0.35,Regular Expression Denial of Service in postcss,,y,5,3,69,,,,,10478
+GHSA-hxf5-mg84-pj4m,moment,2.11.1,Moderate severity vulnerability that affects moment,,,2,4,152,,,,,26961
+GHSA-j533-2g8v-pmpg,simple-markdown,0.6.0,Regular Expression Denial of Service in simple-markdown,,,0,7,127,,,,,1418
+GHSA-j5p7-jf4q-742q,markdown-it,2.2.1,markdown-it vulnerable to Inefficient Regular Expression Complexity,,(api-error),8,2,146,,,,,19081
+GHSA-j8xg-fqg3-53r7,word-wrap,1.2.3,word-wrap vulnerable to Regular Expression Denial of Service,,,1,1,1,,,,,45
+GHSA-j9m2-h2pv-wvph,jquery-validation,1.19.3,Regular expression denial of service in jquery-validation,,(api-error),2,4,0,,,,,24446
+GHSA-jcpv-g9rr-qxrc,hawk,3.1.2,Regular Expression Denial of Service in hawk,,,4,4,60,,,,,8856
+GHSA-jv4c-7jqq-m34x,ckeditor4-dev,4.15.1,CKEditor 4 ReDoS Vulnerability,,,no sarif,0,0,,,,,242108
+GHSA-jvxx-v45p-v5vf,rsshub,1.0.0,Denial of Service (DoS) vulnerability in RSSHub,,,no sarif,no sarif,no export api,,,,,1207014
+GHSA-jxg6-fhwc-9v9c,es6-crawler-detect,3.1.2,Regular Expression Denial of Service (ReDoS) in es6-crawler-detect,,,2,0,14,,,,,198
+GHSA-jxwx-85vp-gvwm,jquery-validation,1.19.2,Regular Expression Denial of Service in jquery-validation,,(api-error),2,4,0,,,,,24444
+GHSA-m2h2-264f-f486,angular,1.8.3,angular vulnerable to regular expression denial of service (ReDoS),,(api-error),4,0,0,,,,,2
+GHSA-m489-xr35-fjxr,millisecond,0.1.1,Regular Expression Denial of Service in millisecond,,,0,0,1,,,,,146
+GHSA-m95q-7qp3-xv42,zod,3.22.2,Zod denial of service vulnerability,,,0,0,633,,,,,13640
+GHSA-mgfv-m47x-4wqp,useragent,2.3.0,useragent Regular Expression Denial of Service vulnerability,,,1,1,18,,,,,8667
+GHSA-mmh6-m7v9-5956,markdown-link-extractor,3.0.1,Regular expression denial of service in markdown-link-extractor,,,27,3,1,,,,,83739
+GHSA-mpg4-rc92-vx8v,fast-xml-parser,4.4.0,fast-xml-parser vulnerable to ReDOS at currency parsing,,,9,5,21,,,,,3611
+GHSA-mvrp-3cvx-c325,express-zod-api,9.4.3,Zod denial of service vulnerability during email validation,,,20,no sarif,668,,,,,369538
+GHSA-p28h-cc7q-c4fg,css-what,2.1.2,css-what vulnerable to ReDoS due to use of insecure regular expression,,,1,1,1,,,,,242
+GHSA-p4pj-mg4r-x6v4,uap-core,0.10.0,Denial of Service in uap-core,,,no sarif,no sarif,0,,,,,0
+GHSA-p8pc-3f7w-jr5q,foundation-sites,6.3.1,Foundation Regular Expression Denial of Service vulnerability,,,6,5,0,,,,,103103
+GHSA-pfq8-rq6v-vf5m,html-minifier,4.0.0,kangax html-minifier REDoS vulnerability,,,6,22,1,,,,,43629
+GHSA-pfrm-4rjw-g9q5,string-kit,0.12.7,string-kit Inefficient Regular Expression Complexity vulnerability,,,3,7,67,,,,,3613
+GHSA-pjmx-9xr3-82qr,useragent,2.1.12,ReDoS via long UserAgent header in useragent,,(api-error),5,1,18,,,,,7699
+GHSA-pmg9-p9r2-6q87,ua-parser,0.3.5,ReDoS via long UserAgent header in ua-parser,,,6,0,14,,,,,897
+GHSA-pmvv-57rg-5g86,commonregex,0.3.1,CommonRegexJS Regular Expression Denial of Service vulnerability,,y,0,0,15,,,,,183
+GHSA-prr3-c3m5-p7q2,@adobe/css-tools,4.3.1,@adobe/css-tools Improper Input Validation and Inefficient Regular Expression Complexity,,(api-error),4,4,2,,,,,839
+GHSA-pvrw-g6fx-mcx2,is_js,0.9.0,is_js vulnerable to Regular Expression Denial of Service,,,0,0,no export api,,,,,566
+GHSA-q674-xm3x-2926,parse-link-header,1.0.1,Uncontrolled Resource Consumption in parse-link-header,,y,2,2,1,,,,,324
+GHSA-qgmg-gppg-76g5,validator,13.6.0,Inefficient Regular Expression Complexity in validator.js,,,1,2,92,,,,,11735
+GHSA-qhv9-728r-6jqg,tough-cookie,2.2.2,ReDoS via long string of semicolons in tough-cookie,,,3,3,61,,,,,1085
+GHSA-qjm7-55vv-3c5f,mel-spintax,1.0.2,mel-spintax has Inefficient Regular Expression Complexity,,y,2,2,5,,,,,77
+GHSA-qv66-f876-vjvr,skeemas,1.2.4,skeemas Inefficient Regular Expression Complexity vulnerability,,,1,0,3,,,,,1822
+GHSA-qwqh-hm9m-p5hr,angular,1.8.3,"angular vulnerable to regular expression denial of service via the <input type=""url""> element",,(api-error),10,0,0,,,,,2
+GHSA-r6ch-mqf9-qc9w,undici,5.19.0,Regular Expression Denial of Service in Headers,,,1,3,164,,,,,18763
+GHSA-rc47-6667-2j5j,http-cache-semantics,4.1.0,http-cache-semantics vulnerable to Regular Expression Denial of Service,,,19,3,24,,,,,505
+GHSA-rgqx-226f-2xp4,steal,2.3.0,steal Inefficient Regular Expression Complexity vulnerability via string variable,,(api-error),no sarif,0,no export api,,,,,102312
+GHSA-rhx6-c78j-4q9w,path-to-regexp,0.1.11,path-to-regexp contains a ReDoS,,,3,3,1,,,,,97
+GHSA-rmvr-2pp2-xj38,@octokit/request,9.2.0,@octokit/request has a Regular Expression in fetchWrapper that Leads to ReDoS Vulnerability Due to Catastrophic Backtracking,,,3,1,0,,,,,2903
+GHSA-rrr8-f88r-h8q6,find-my-way,9.0.0,find-my-way has a ReDoS vulnerability in multiparametric routes,,,1,0,73,,,,,7745
+GHSA-rrrm-qjm4-v8hf,marked,4.0.9,Inefficient Regular Expression Complexity in marked,,,1,9,79,,,,,7737
+GHSA-rv73-9c8w-jp4c,validate.js,0.13.1,validate.js Regular Expression Denial of Service vulnerability,,,3,0,58,,,,,980
+GHSA-rw72-v6c7-hf9r,urlregex,0.5.0,ReDoS in urlregex,,y,0,0,1,,,,,149
+GHSA-v2p6-4mp7-3r9v,underscore.string,3.3.4,Regular Expression Denial of Service in underscore.string,,,1,3,no export api,,,,,2102
+GHSA-v638-q856-grg8,mathjax,2.7.9,MathJax Regular expression Denial of Service (ReDoS),,,no sarif,0,0,,,,,130101
+GHSA-v63q-hgqc-qvpg,mootools,1.5.2,MooTools Regular Expression Denial of Service,,,0,0,0,,,,,784
+GHSA-v6wh-2wvh-c8x5,djvalidator,1.1.1,Regular Expression Denial of Service in djvalidator,,(api-error),481,0,0,,,,,50907
+GHSA-vp56-6g26-6827,node-fetch,3.2.9,node-fetch Inefficient Regular Expression Complexity,,y,1,0,59,,,,,54260
+GHSA-vqc4-v8hc-h2jg,nitrado.js,0.2.4,Polynomial regular expression used on uncontrolled data in nitrado.js,,,12,2,4,,,,,9718
+GHSA-vvf2-ppj9-pp49,@vuelidate/validators,2.0.0-alpha.21,Inefficient Regular Expression Complexity in vuelidate,,,0,0,0,,,,,75000
+GHSA-w455-mfq9-hf74,insane,2.6.2,insane vulnerable to Regular Expression Denial of Service,,,4,2,1,,,,,832
+GHSA-w532-jxjh-hjhj,jspdf,3.0.0,jsPDF Bypass Regular Expression Denial of Service (ReDoS),,,2,0,369,,,,,155888
+GHSA-wc69-rhjr-hc9g,moment,2.29.3,Moment.js vulnerable to Inefficient Regular Expression Complexity,,,no sarif,2,178,,,,,82054
+GHSA-wpvm-wqr4-p7cw,ckeditor4,4.15.1,Inclusion of Functionality from Untrusted Control Sphere in CKEditor 4,,,no sarif,0,0,,,,,1611
+GHSA-wqg7-vrj7-v82h,mosca,2.8.1,Mosca REDoS Vulnerability,,,7,no sarif,1263,,,,,304368
+GHSA-wqxw-8h5g-hq56,switcher-client,3.1.3,Switcher Client contains Regular Expression Denial of Service (ReDoS),,(api-error),14,1,38,,,,,5976
+GHSA-wxhq-pm8v-cw75,clean-css,4.1.10,Regular Expression Denial of Service in clean-css,,,10,10,2,,,,,14115
+GHSA-x3v3-8xg8-8v72,@sentry/astro,7.86.0,Sentry's Astro SDK vulnerable to ReDoS,,,3,no sarif,0,,,,,680774
+GHSA-x4c5-c7rf-jjgv,@octokit/endpoint,9.0.5,@octokit/endpoint has a Regular Expression in parse that Leads to ReDoS Vulnerability Due to Catastrophic Backtracking,,(api-error),6,3,0,,,,,2384
+GHSA-x55w-vjjp-222r,i,0.3.6,inflect vulnerable to Inefficient Regular Expression Complexity,,,1,1,23,,,,,1140
+GHSA-x5rq-j2xg-h7qm,lodash,4.17.10,Regular Expression Denial of Service (ReDoS) in lodash,,,542,12,no export api,,,,,26528
+GHSA-x6fg-f45m-jf5q,semver,4.3.1,Regular Expression Denial of Service in semver,,,42,1,48,,,,,3027
+GHSA-xf5p-87ch-gxw2,marked,0.6.1,Marked ReDoS due to email addresses being evaluated in quadratic time,,,6,7,49,,,,,1752
+GHSA-xgh6-85xh-479p,npm-user-validate,1.0.0,Regular Expression Denial of Service in npm-user-validate,,y,1,1,3,,,,,47
+GHSA-xmc8-cjfr-phx3,highcharts,5.0.15,Regular Expression Denial of Service in highcharts,,(api-error),10,0,1,,,,,67415
+GHSA-xrx9-gj26-5wx9,v8n,1.5.0,v8n vulnerable to Inefficient Regular Expression Complexity,,y,4,0,11,,,,,5088
+GHSA-xx4c-jj58-r7x6,validator,13.6.0,Inefficient Regular Expression Complexity in Validator.js,,y,2,2,92,,,,,11735
+GHSA-xx4v-prfh-6cgc,@octokit/request-error,5.1.0,@octokit/request-error has a Regular Expression in index that Leads to ReDoS Vulnerability Due to Catastrophic Backtracking,,y,3,2,1,,,,,1588
